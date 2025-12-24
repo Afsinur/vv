@@ -1,0 +1,1504 @@
+{
+  "navbar": {
+    "topBar": {
+      "text": "An official website of the Maldives government.",
+      "linkText": "How do you know?",
+      "linkHref": "/about-official-website"
+    },
+    "logo": {
+      "src": "/images/logo.png",
+      "alt": "Maldives Immigration"
+    },
+    "items": [
+      { "label": "Home", "href": "/" },
+      { "label": "Traveller Declaration", "href": "/traveller-declaration" },
+      {
+        "label": "Passport",
+        "children": [
+          { "label": "Forms", "href": "/passport/forms" },
+          { "label": "Status", "href": "/passport/status" }
+        ]
+      },
+      {
+        "label": "Visa",
+        "children": [
+          { "label": "Visa Service", "href": "/visa" },
+          { "label": "Visa Status", "href": "/visa/status" }
+        ]
+      },
+      { "label": "Watch", "href": "/watch" },
+      {
+        "label": "Resources",
+        "children": [
+          { "label": "Forms", "href": "/resources/forms" },
+          { "label": "Downloads", "href": "/resources/downloads" }
+        ]
+      },
+      { "label": "Contact", "href": "/contact" },
+      { "label": "Queue", "href": "/queue" }
+    ],
+    "actions": {
+      "search": true,
+      "profile": true
+    }
+  },
+
+  "sections": [
+    {
+      "id": "service-grid-1",
+      "type": "serviceGrid",
+
+      "grid": {
+        "columns": {
+          "mobile": 1,
+          "tablet": 2,
+          "desktop": 12
+        }
+      },
+
+      "metrics": {
+        "rowHeight": { "mobile": 10, "tablet": 20, "desktop": 30 },
+        "gap": 24
+      },
+
+      "debug": {
+        "showGrid": false
+      },
+
+      "tiles": [
+        {
+          "id": "75-years",
+          "title": "75 Years </br> of Service",
+          "href": "/75-years",
+          "image": "/images/service-grid/75_logo.png",
+          "background": {
+            "gradient": "linear-gradient(40deg,#0d161f 0%,#0c3daf 99%)"
+          },
+          "hoverSwap": {
+            "default": "first",
+            "hover": "first"
+          },
+          "placement": {
+            "colStart": { "desktop": 1 },
+            "colSpan": { "desktop": 4 },
+            "rowStart": { "desktop": 1 },
+            "rowSpan": { "desktop": 11 }
+          }
+        },
+        {
+          "id": "traveller",
+          "title": "Traveller </br> Declaration",
+          "href": "/traveller-declaration",
+          "image": "/images/service-grid/airplane.png",
+          "decorImage": "/images/service-grid/suitCase.png",
+          "background": {
+            "gradient": "linear-gradient(310deg,#0d161f 0%,#0c3daf 99%)",
+            "image": {
+              "src": "/images/service-grid/top-center.png",
+              "opacity": 0.35,
+              "transform": "translate(20%, -5%)"
+            }
+          },
+          "hoverSwap": {
+            "default": "second",
+            "hover": "secondHover"
+          },
+          "placement": {
+            "colStart": { "desktop": 5 },
+            "colSpan": { "desktop": 4 },
+            "rowStart": { "desktop": 1 },
+            "rowSpan": { "desktop": 9 }
+          }
+        },
+        {
+          "id": "visa",
+          "title": "Visa Service",
+          "href": "/visa-service",
+          "image": "/images/flags.png",
+          "background": {
+            "gradient": "linear-gradient(125deg,#0d161f 0%,#0c3daf 99%)",
+            "image": {
+              "src": "/images/service-grid/top-right.png",
+              "opacity": 0.35
+            }
+          },
+          "hoverSwap": {
+            "default": "stats",
+            "hover": "icon"
+          },
+          "placement": {
+            "colStart": { "desktop": 9 },
+            "colSpan": { "desktop": 4 },
+            "rowStart": { "desktop": 1 },
+            "rowSpan": { "desktop": 9 }
+          }
+        },
+        {
+          "id": "immigration-watch",
+          "title": "Immigration Watch",
+          "href": "/immigration-watch",
+          "image": "/images/watch.png",
+          "background": {
+            "gradient": "linear-gradient(40deg,#0d161f 0%,#0c3daf 99%)",
+            "image": {
+              "src": "/images/service-grid/bottom-left.png",
+              "opacity": 0.35,
+              "transform": "translate(28%, 0) scale(140%)"
+            }
+          },
+          "hoverSwap": {
+            "default": "default",
+            "hover": "hover"
+          },
+          "placement": {
+            "colStart": { "desktop": 1 },
+            "colSpan": { "desktop": 4 },
+            "rowStart": { "desktop": 12 },
+            "rowSpan": { "desktop": 5 }
+          }
+        },
+        {
+          "id": "passport",
+          "title": "Maldivian Passport",
+          "href": "/passport",
+          "image": "/images/passport.png",
+          "background": {
+            "gradient": "linear-gradient(40deg,#0d161f 0%,#0c3daf 99%)",
+            "image": {
+              "src": "/images/service-grid/bottom-center.png",
+              "opacity": 0.35
+            }
+          },
+          "hoverSwap": {
+            "default": "icon",
+            "hover": "hover"
+          },
+          "placement": {
+            "colStart": { "desktop": 5 },
+            "colSpan": { "desktop": 5 },
+            "rowStart": { "desktop": 10 },
+            "rowSpan": { "desktop": 7 }
+          }
+        },
+        {
+          "id": "bordermiles",
+          "title": "Maldives Bordermiles",
+          "href": "/bordermiles",
+          "image": "/images/bordermiles.png",
+          "background": {
+            "gradient": "linear-gradient(40deg,#0d161f 0%,#0c3daf 99%)",
+            "image": {
+              "src": "/images/service-grid/bottom-right.png",
+              "opacity": 0.35
+            }
+          },
+          "hoverSwap": {
+            "default": "default",
+            "hover": "icon"
+          },
+          "placement": {
+            "colStart": { "desktop": 10 },
+            "colSpan": { "desktop": 3 },
+            "rowStart": { "desktop": 10 },
+            "rowSpan": { "desktop": 7 }
+          }
+        }
+      ]
+    },
+    {
+      "id": "institutional-profile",
+      "type": "institutionalProfile",
+
+      "title": "INSTITUTIONAL PROFILE",
+
+      "description": "At Maldives Immigration, our mission is clear: to safeguard national security while providing quality, convenient, and professional immigration services. We are committed to facilitating legitimate travel, proactively detecting immigration-related crimes, and ensuring Maldivian citizens have a trustworthy international travel identity.",
+
+      "image": {
+        "src": "/images/institutional-staff.png",
+        "alt": "Maldives Immigration Officers"
+      },
+
+      "values": [
+        {
+          "title": "Integrity",
+          "description": "We act within the boundaries of the relevant national and international laws, and uphold our responsibilities as Immigration Officers. We carry out our duties with honesty and hold our moral principles high."
+        },
+        {
+          "title": "Expertise",
+          "description": "We continuously work to further our knowledge in order to enhance our services for our stakeholders. We apply our training and understanding for the benefit of our customers, and the local and international community."
+        },
+        {
+          "title": "Accountability",
+          "description": "We ensure transparency and accountability to our stakeholders. We act in a way which is in line with the relevant laws and regulations, accepting that our actions are open to scrutiny."
+        },
+        {
+          "title": "Vigilance",
+          "description": "We pledge to safeguard our borders. We strive to detect, deter and prosecute all immigration-related crimes and assist victims to the best of our ability."
+        },
+        {
+          "title": "Empathy",
+          "description": "We show understanding and compassion towards each individual, no matter their background or circumstances."
+        }
+      ]
+    },
+    {
+      "id": "latest-stories",
+      "type": "latestStories",
+
+      "title": "OUR LATEST STORIES",
+
+      "cta": {
+        "label": "View All News",
+        "href": "/news"
+      }
+    },
+    {
+      "id": "immigration-statistics-2025",
+      "type": "immigrationStatistics",
+
+      "header": {
+        "title": "IMMIGRATION STATISTICS",
+        "year": "2025"
+      },
+
+      "background": {
+        "image": "/images/statistics-bg.png"
+      },
+
+      "items": [
+        {
+          "value": "2M+",
+          "title": "Total Arrivals",
+          "description": "Over 2 million total arrivals including tourists, business travelers, and other visitors, showcasing our efficient border management and welcoming approach."
+        },
+        {
+          "value": "1.7M+",
+          "title": "Tourist Arrivals",
+          "description": "Over 1.7 million tourists entered the Maldives with smoother, faster entry processes, ensuring a safe and welcoming start to their journey."
+        },
+        {
+          "value": "3256",
+          "title": "Illegal Immigrants Deported",
+          "description": "Over 3,256 individuals were deported for violating immigration laws, reflecting our commitment to secure borders and lawful entry."
+        }
+      ]
+    },
+    {
+      "id": "controller-general-profile",
+      "type": "leadershipProfile",
+
+      "person": {
+        "name": "Ahmed Faseeh",
+        "designation": "Controller General of Immigration",
+        "image": "/images/ahmed-faseeh.png"
+      },
+
+      "content": [
+        "President Dr Mohamed Muizzu has appointed Commissioner of Police (Retd) Ahmed Faseeh as the Controller General of Immigration.",
+        "The appointment places Commissioner of Police (Retd) Ahmed Faseeh at the level of State Minister.",
+        "With an educational background from the FBI National Academy, Commissioner of Police (Retd) Ahmed Faseeh is a graduate of the FBI General Course of Instruction from the U.S. Department of Justice in Quantico, Virginia. Throughout his career, he has served the Maldives Police Service for many years and has also contributed as a member of the Police Board.",
+        "Commissioner of Police (Retd) Ahmed Faseeh brings extensive experience in law enforcement and border security to his role as Controller General of Immigration. His leadership and expertise in security operations will be instrumental in advancing the mission of Maldives Immigration.",
+        "Under his guidance, the department continues to enhance its capabilities in providing quality immigration services while maintaining the highest standards of border security and national protection."
+      ]
+    },
+    {
+      "id": "site-footer",
+      "type": "footer",
+
+      "columns": [
+        {
+          "title": "Maldivian Passport",
+          "links": [
+            { "label": "The Revolution", "href": "/passport/revolution" },
+            { "label": "Passports", "href": "/passport" },
+            { "label": "How to Apply", "href": "/passport/apply" },
+            { "label": "Photo Standard", "href": "/passport/photo-standard" },
+            { "label": "FAQ", "href": "/passport/faq" }
+          ]
+        },
+        {
+          "title": "Traveller Declaration",
+          "links": [
+            { "label": "New Declaration", "href": "/traveller-declaration" },
+            { "label": "Edit", "href": "/traveller-declaration/edit" },
+            {
+              "label": "Verify QR Code",
+              "href": "/traveller-declaration/verify"
+            },
+            { "label": "Read More", "href": "/traveller-declaration/info" }
+          ]
+        },
+        {
+          "title": "Visa",
+          "links": [
+            { "label": "Tourist Visa", "href": "/visa/tourist" },
+            { "label": "Sponsorship", "href": "/visa/sponsorship" },
+            { "label": "Work Visa", "href": "/visa/work" },
+            { "label": "Marriage Visa", "href": "/visa/marriage" },
+            { "label": "Dependent Visa", "href": "/visa/dependent" },
+            { "label": "Business Visa", "href": "/visa/business" },
+            { "label": "Resident Visa", "href": "/visa/resident" },
+            { "label": "Meeting Visa", "href": "/visa/meeting" }
+          ]
+        },
+        {
+          "title": "Resources",
+          "links": [
+            { "label": "News Room", "href": "/news" },
+            { "label": "Publications", "href": "/publications" },
+            { "label": "Procurement", "href": "/procurement" },
+            { "label": "Photos", "href": "/photos" },
+            { "label": "Right to Information", "href": "/rti" }
+          ]
+        },
+        {
+          "title": "Downloads",
+          "links": [
+            { "label": "Recruitment", "href": "/downloads/recruitment" },
+            { "label": "Permits", "href": "/downloads/permits" },
+            { "label": "Passports", "href": "/downloads/passports" },
+            {
+              "label": "Professional Category",
+              "href": "/downloads/professional-category"
+            },
+            {
+              "label": "Seaport Control",
+              "href": "/downloads/seaport-control"
+            },
+            { "label": "Work Visa", "href": "/downloads/work-visa" },
+            { "label": "Right to Information", "href": "/downloads/rti" },
+            { "label": "ECD", "href": "/downloads/ecd" },
+            { "label": "Legal", "href": "/downloads/legal" },
+            { "label": "Other", "href": "/downloads/other" }
+          ]
+        },
+        {
+          "title": "Other",
+          "links": [
+            { "label": "Contact", "href": "/contact" },
+            { "label": "Watch", "href": "/watch" },
+            { "label": "Queue Token", "href": "/queue" },
+            { "label": "Privacy Policy", "href": "/privacy-policy" },
+            { "label": "Terms and Conditions", "href": "/terms" }
+          ]
+        }
+      ],
+
+      "contact": {
+        "phone": "+960 1434",
+        "email": "info@immigration.gov.mv"
+      },
+
+      "bottom": {
+        "copyright": "Copyright © Maldives Immigration 2025",
+        "logo": {
+          "src": "/images/republic-of-maldives.png",
+          "alt": "Republic of Maldives"
+        },
+        "social": [
+          { "type": "instagram", "href": "#" },
+          { "type": "x", "href": "#" },
+          { "type": "facebook", "href": "#" },
+          { "type": "youtube", "href": "#" }
+        ]
+      }
+    }
+  ],
+
+  "news": [
+    {
+      "id": "mi-id-checker",
+      "title": "New Facial Recognition System to Streamline the Identification of Undocumented Foreign Workers",
+      "date": "10 November 2025",
+      "image": "/images/news-1.png",
+      "excerpt": "New system introduced to strengthen identity verification.",
+      "content": [
+        "Maldives Immigration has introduced a new facial recognition system.",
+        "The system enhances operational efficiency and national security."
+      ]
+    },
+
+    {
+      "id": "e-visa",
+      "title": "A New Era of Change with the Introduction of the e-Visa Service",
+      "date": "10 November 2025",
+      "image": "/images/news-2.png",
+      "excerpt": "e-Visa service launched.",
+      "content": ["e-Visa service introduced."]
+    },
+    {
+      "id": "campaigns",
+      "title": "Launching Three New Campaigns for Service Enhancement",
+      "date": "21 August 2025",
+      "image": "/images/news-3.png",
+      "excerpt": "Service culture campaigns.",
+      "content": ["Three campaigns launched."]
+    },
+    {
+      "id": "hamamagu",
+      "title": "Operation Hamamagu Conducted in Addu City",
+      "date": "25 June 2025",
+      "image": "/images/news-4.png",
+      "excerpt": "Major raid conducted.",
+      "content": ["Raid conducted in Addu City."]
+    },
+    {
+      "id": "dhuvaafaru",
+      "title": "Raid Operation in R. Dhuvaafaru",
+      "date": "24 April 2025",
+      "image": "/images/news-5.png",
+      "excerpt": "51 detained.",
+      "content": ["51 expatriates detained."]
+    },
+    {
+      "id": "haa-alif-office",
+      "title": "Agreement Signed for New Immigration Office in Haa Alif Atoll",
+      "date": "27 March 2025",
+      "image": "/images/news-6.png",
+      "excerpt": "New office planned.",
+      "content": ["New office agreement signed."]
+    },
+
+    {
+      "id": "airport-upgrade",
+      "title": "Velana International Airport Immigration Counters Upgraded",
+      "date": "12 February 2025",
+      "image": "/images/news-7.png",
+      "excerpt": "Counters upgraded.",
+      "content": ["Counters upgraded."]
+    },
+    {
+      "id": "training-program",
+      "title": "Advanced Training Program for Immigration Officers",
+      "date": "30 January 2025",
+      "image": "/images/news-8.png",
+      "excerpt": "Training program.",
+      "content": ["Training conducted."]
+    },
+    {
+      "id": "regional-cooperation",
+      "title": "Regional Cooperation Meeting on Border Security",
+      "date": "15 January 2025",
+      "image": "/images/news-9.png",
+      "excerpt": "Regional meeting.",
+      "content": ["Meeting held."]
+    },
+    {
+      "id": "digital-arrival-card",
+      "title": "Digital Arrival Card Rolled Out Nationwide",
+      "date": "2 January 2025",
+      "image": "/images/news-10.png",
+      "excerpt": "Digital cards.",
+      "content": ["Digital cards rolled out."]
+    },
+    {
+      "id": "biometric-expansion",
+      "title": "Biometric Screening Expanded to Regional Airports",
+      "date": "18 December 2024",
+      "image": "/images/news-11.png",
+      "excerpt": "Biometric expansion.",
+      "content": ["Screening expanded."]
+    },
+    {
+      "id": "customer-service-award",
+      "title": "Maldives Immigration Receives Customer Service Award",
+      "date": "5 December 2024",
+      "image": "/images/news-12.png",
+      "excerpt": "Award received.",
+      "content": ["Award received."]
+    },
+    {
+      "id": "border-control-upgrade",
+      "title": "Border Control Systems Upgraded at Key Entry Points",
+      "date": "18 November 2025",
+      "image": "/images/news-13.png",
+      "excerpt": "Border control infrastructure upgraded.",
+      "content": [
+        "Maldives Immigration has upgraded border control systems.",
+        "The upgrade improves passenger processing and security."
+      ]
+    },
+    {
+      "id": "passport-verification-ai",
+      "title": "AI-Based Passport Verification Introduced",
+      "date": "12 November 2025",
+      "image": "/images/news-14.png",
+      "excerpt": "AI verification launched.",
+      "content": [
+        "AI-based passport verification has been introduced.",
+        "The system reduces manual errors and processing time."
+      ]
+    },
+    {
+      "id": "seaport-immigration-upgrade",
+      "title": "Immigration Services Enhanced at Major Seaports",
+      "date": "5 November 2025",
+      "image": "/images/news-15.png",
+      "excerpt": "Seaport services improved.",
+      "content": [
+        "Immigration counters at seaports have been enhanced.",
+        "This ensures smoother clearance for travelers."
+      ]
+    },
+    {
+      "id": "officer-capacity-building",
+      "title": "Capacity Building Program for Immigration Officers",
+      "date": "28 October 2025",
+      "image": "/images/news-16.png",
+      "excerpt": "Officers trained nationwide.",
+      "content": [
+        "A nationwide training program was conducted.",
+        "Officers received advanced operational training."
+      ]
+    },
+    {
+      "id": "mobile-immigration-units",
+      "title": "Mobile Immigration Units Deployed for Remote Islands",
+      "date": "20 October 2025",
+      "image": "/images/news-17.png",
+      "excerpt": "Mobile units deployed.",
+      "content": [
+        "Mobile immigration units were deployed.",
+        "Services now reach remote island communities."
+      ]
+    },
+    {
+      "id": "visa-extension-online",
+      "title": "Online Visa Extension Service Launched",
+      "date": "12 October 2025",
+      "image": "/images/news-18.png",
+      "excerpt": "Visa extension now online.",
+      "content": [
+        "Visa extension services are now available online.",
+        "Applicants can apply without visiting offices."
+      ]
+    },
+    {
+      "id": "fraud-detection-system",
+      "title": "New Fraud Detection System Strengthens Immigration Security",
+      "date": "1 October 2025",
+      "image": "/images/news-19.png",
+      "excerpt": "Fraud detection improved.",
+      "content": [
+        "A fraud detection system has been implemented.",
+        "It identifies suspicious immigration activities."
+      ]
+    },
+    {
+      "id": "regional-border-talks",
+      "title": "Regional Border Management Talks Held in Malé",
+      "date": "22 September 2025",
+      "image": "/images/news-20.png",
+      "excerpt": "Regional talks conducted.",
+      "content": [
+        "Border management talks were held with regional partners.",
+        "Discussions focused on security cooperation."
+      ]
+    },
+    {
+      "id": "immigration-hotline",
+      "title": "24/7 Immigration Hotline Launched",
+      "date": "10 September 2025",
+      "image": "/images/news-21.png",
+      "excerpt": "Hotline service introduced.",
+      "content": [
+        "A 24/7 immigration hotline has been launched.",
+        "The hotline assists travelers and employers."
+      ]
+    },
+    {
+      "id": "digital-queue-system",
+      "title": "Digital Queue System Introduced at Immigration Offices",
+      "date": "28 August 2025",
+      "image": "/images/news-22.png",
+      "excerpt": "Queue management improved.",
+      "content": [
+        "A digital queue system is now in operation.",
+        "Waiting times have been significantly reduced."
+      ]
+    },
+    {
+      "id": "biometric-enrollment-drive",
+      "title": "Nationwide Biometric Enrollment Drive Conducted",
+      "date": "15 August 2025",
+      "image": "/images/news-23.png",
+      "excerpt": "Biometric drive conducted.",
+      "content": [
+        "A biometric enrollment drive was conducted nationwide.",
+        "The initiative strengthens identity records."
+      ]
+    },
+    {
+      "id": "immigration-policy-review",
+      "title": "Comprehensive Review of Immigration Policies Initiated",
+      "date": "2 August 2025",
+      "image": "/images/news-24.png",
+      "excerpt": "Policy review underway.",
+      "content": [
+        "A comprehensive review of immigration policies has begun.",
+        "The review aims to modernize regulations."
+      ]
+    },
+    {
+      "id": "student-visa-framework",
+      "title": "New Student Visa Framework Announced",
+      "date": "20 July 2025",
+      "image": "/images/news-25.png",
+      "excerpt": "Student visa updates.",
+      "content": [
+        "A new student visa framework has been announced.",
+        "The framework supports international education."
+      ]
+    },
+    {
+      "id": "smart-gate-expansion",
+      "title": "Smart Immigration Gates Expanded at International Airport",
+      "date": "5 July 2025",
+      "image": "/images/news-26.png",
+      "excerpt": "Smart gates expanded.",
+      "content": [
+        "Smart immigration gates have been expanded.",
+        "Passenger processing capacity has increased."
+      ]
+    },
+    {
+      "id": "joint-security-operation",
+      "title": "Joint Security Operation Conducted with Law Enforcement Agencies",
+      "date": "18 June 2025",
+      "image": "/images/news-27.png",
+      "excerpt": "Joint operation conducted.",
+      "content": [
+        "A joint security operation was conducted.",
+        "Multiple agencies collaborated on enforcement."
+      ]
+    },
+    {
+      "id": "immigration-service-award",
+      "title": "Immigration Department Receives Excellence in Service Award",
+      "date": "2 June 2025",
+      "image": "/images/news-28.png",
+      "excerpt": "Service excellence recognized.",
+      "content": [
+        "The department received a national service award.",
+        "The award recognizes operational excellence."
+      ]
+    },
+    {
+      "id": "arrival-card-enhancement",
+      "title": "Digital Arrival Card System Enhanced with New Features",
+      "date": "18 May 2025",
+      "image": "/images/news-29.png",
+      "excerpt": "Arrival card system enhanced.",
+      "content": [
+        "New features have been added to the digital arrival card.",
+        "The update improves traveler experience."
+      ]
+    },
+    {
+      "id": "regional-office-renovation",
+      "title": "Renovation Completed at Regional Immigration Office",
+      "date": "30 April 2025",
+      "image": "/images/news-30.png",
+      "excerpt": "Office renovation completed.",
+      "content": [
+        "Renovation works have been completed.",
+        "Facilities now support improved service delivery."
+      ]
+    },
+    {
+      "id": "stakeholder-consultation",
+      "title": "Stakeholder Consultation Held on Immigration Reforms",
+      "date": "12 April 2025",
+      "image": "/images/news-31.png",
+      "excerpt": "Consultation session held.",
+      "content": [
+        "A consultation session was held with stakeholders.",
+        "Feedback will inform future reforms."
+      ]
+    },
+    {
+      "id": "immigration-awareness-campaign",
+      "title": "Public Awareness Campaign on Immigration Laws Launched",
+      "date": "25 March 2025",
+      "image": "/images/news-32.png",
+      "excerpt": "Awareness campaign launched.",
+      "content": [
+        "A public awareness campaign has been launched.",
+        "The campaign educates the public on immigration laws."
+      ]
+    },
+    {
+      "id": "smart-border-phase-two",
+      "title": "Smart Border Management System Phase Two Launched",
+      "date": "20 December 2025",
+      "image": "/images/news-33.png",
+      "excerpt": "Phase two implementation begins.",
+      "content": [
+        "Phase two of the smart border management system has been launched.",
+        "The upgrade further enhances border surveillance and efficiency."
+      ]
+    },
+    {
+      "id": "officer-welfare-initiative",
+      "title": "New Welfare Initiative Introduced for Immigration Officers",
+      "date": "15 December 2025",
+      "image": "/images/news-34.png",
+      "excerpt": "Officer welfare strengthened.",
+      "content": [
+        "A new welfare initiative has been introduced.",
+        "The initiative focuses on health and professional wellbeing."
+      ]
+    },
+    {
+      "id": "digital-permit-system",
+      "title": "Digital Permit Approval System Goes Live",
+      "date": "8 December 2025",
+      "image": "/images/news-35.png",
+      "excerpt": "Permit approvals digitized.",
+      "content": [
+        "Permit approvals are now handled digitally.",
+        "The system reduces processing delays."
+      ]
+    },
+    {
+      "id": "regional-airport-support",
+      "title": "Immigration Support Services Expanded at Regional Airports",
+      "date": "30 November 2025",
+      "image": "/images/news-36.png",
+      "excerpt": "Regional airport services expanded.",
+      "content": [
+        "Support services have been expanded at regional airports.",
+        "This improves passenger experience and security."
+      ]
+    },
+    {
+      "id": "data-integration-platform",
+      "title": "Immigration Data Integration Platform Introduced",
+      "date": "22 November 2025",
+      "image": "/images/news-37.png",
+      "excerpt": "Data systems integrated.",
+      "content": [
+        "A new data integration platform has been introduced.",
+        "It connects multiple immigration databases securely."
+      ]
+    },
+    {
+      "id": "passport-fraud-prevention",
+      "title": "New Measures Introduced to Prevent Passport Fraud",
+      "date": "14 November 2025",
+      "image": "/images/news-38.png",
+      "excerpt": "Fraud prevention measures enhanced.",
+      "content": [
+        "New passport fraud prevention measures are in place.",
+        "The measures strengthen document integrity."
+      ]
+    },
+    {
+      "id": "international-cooperation-agreement",
+      "title": "International Cooperation Agreement Signed on Migration Control",
+      "date": "5 November 2025",
+      "image": "/images/news-39.png",
+      "excerpt": "Agreement signed.",
+      "content": [
+        "An international cooperation agreement has been signed.",
+        "The agreement supports migration control efforts."
+      ]
+    },
+    {
+      "id": "immigration-it-upgrade",
+      "title": "Major IT Infrastructure Upgrade Completed",
+      "date": "28 October 2025",
+      "image": "/images/news-40.png",
+      "excerpt": "IT systems upgraded.",
+      "content": [
+        "A major IT infrastructure upgrade has been completed.",
+        "The upgrade improves system reliability and speed."
+      ]
+    },
+    {
+      "id": "biometric-data-protection",
+      "title": "New Policies Announced for Biometric Data Protection",
+      "date": "20 October 2025",
+      "image": "/images/news-41.png",
+      "excerpt": "Data protection policies updated.",
+      "content": [
+        "New policies for biometric data protection were announced.",
+        "The policies align with international standards."
+      ]
+    },
+    {
+      "id": "remote-island-inspections",
+      "title": "Immigration Inspections Conducted Across Remote Islands",
+      "date": "12 October 2025",
+      "image": "/images/news-42.png",
+      "excerpt": "Inspections conducted.",
+      "content": [
+        "Immigration inspections were conducted across remote islands.",
+        "The inspections ensure regulatory compliance."
+      ]
+    },
+    {
+      "id": "airport-flow-optimization",
+      "title": "Passenger Flow Optimization Implemented at International Airport",
+      "date": "30 September 2025",
+      "image": "/images/news-43.png",
+      "excerpt": "Passenger flow improved.",
+      "content": [
+        "Passenger flow optimization measures have been implemented.",
+        "The measures reduce congestion during peak hours."
+      ]
+    },
+    {
+      "id": "visa-overstay-monitoring",
+      "title": "Enhanced Monitoring System Introduced for Visa Overstays",
+      "date": "18 September 2025",
+      "image": "/images/news-44.png",
+      "excerpt": "Overstay monitoring enhanced.",
+      "content": [
+        "A new monitoring system tracks visa overstays.",
+        "The system supports timely enforcement actions."
+      ]
+    },
+    {
+      "id": "immigration-service-charter",
+      "title": "Immigration Service Charter Published",
+      "date": "10 September 2025",
+      "image": "/images/news-45.png",
+      "excerpt": "Service standards published.",
+      "content": [
+        "The immigration service charter has been published.",
+        "It outlines service standards and commitments."
+      ]
+    },
+    {
+      "id": "joint-border-patrol",
+      "title": "Joint Border Patrol Operations Strengthened",
+      "date": "28 August 2025",
+      "image": "/images/news-46.png",
+      "excerpt": "Patrol operations strengthened.",
+      "content": [
+        "Joint border patrol operations have been strengthened.",
+        "Multiple agencies collaborate on enforcement."
+      ]
+    },
+    {
+      "id": "immigration-research-unit",
+      "title": "Immigration Research and Analysis Unit Established",
+      "date": "15 August 2025",
+      "image": "/images/news-47.png",
+      "excerpt": "Research unit established.",
+      "content": [
+        "A research and analysis unit has been established.",
+        "The unit supports evidence-based policy making."
+      ]
+    },
+    {
+      "id": "border-infrastructure-renewal",
+      "title": "Border Infrastructure Renewal Program Launched",
+      "date": "2 August 2025",
+      "image": "/images/news-48.png",
+      "excerpt": "Infrastructure renewal launched.",
+      "content": [
+        "A border infrastructure renewal program has been launched.",
+        "The program modernizes facilities nationwide."
+      ]
+    },
+    {
+      "id": "digital-appointment-system",
+      "title": "Digital Appointment Booking System Introduced",
+      "date": "20 July 2025",
+      "image": "/images/news-49.png",
+      "excerpt": "Appointment booking digitized.",
+      "content": [
+        "A digital appointment booking system is now available.",
+        "The system reduces waiting times at offices."
+      ]
+    },
+    {
+      "id": "immigration-legal-framework",
+      "title": "Updates Announced to Immigration Legal Framework",
+      "date": "5 July 2025",
+      "image": "/images/news-50.png",
+      "excerpt": "Legal framework updated.",
+      "content": [
+        "Updates to the immigration legal framework were announced.",
+        "The updates improve clarity and enforcement."
+      ]
+    },
+    {
+      "id": "airport-security-drill",
+      "title": "Comprehensive Security Drill Conducted at International Airport",
+      "date": "22 June 2025",
+      "image": "/images/news-51.png",
+      "excerpt": "Security drill conducted.",
+      "content": [
+        "A comprehensive security drill was conducted.",
+        "The drill tested emergency response readiness."
+      ]
+    },
+    {
+      "id": "community-outreach-program",
+      "title": "Community Outreach Program on Immigration Awareness Launched",
+      "date": "10 June 2025",
+      "image": "/images/news-52.png",
+      "excerpt": "Community outreach launched.",
+      "content": [
+        "A community outreach program has been launched.",
+        "The program raises awareness on immigration regulations."
+      ]
+    },
+    {
+      "id": "border-technology-assessment",
+      "title": "Assessment Conducted on Emerging Border Technologies",
+      "date": "28 May 2025",
+      "image": "/images/news-53.png",
+      "excerpt": "Technology assessment conducted.",
+      "content": [
+        "An assessment of emerging border technologies was conducted.",
+        "Findings will guide future investments."
+      ]
+    },
+    {
+      "id": "immigration-compliance-drive",
+      "title": "Nationwide Immigration Compliance Drive Conducted",
+      "date": "15 May 2025",
+      "image": "/images/news-54.png",
+      "excerpt": "Compliance drive conducted.",
+      "content": [
+        "A nationwide compliance drive was conducted.",
+        "The drive ensures adherence to immigration laws."
+      ]
+    },
+    {
+      "id": "service-desk-modernization",
+      "title": "Immigration Service Desks Modernized Nationwide",
+      "date": "2 May 2025",
+      "image": "/images/news-55.png",
+      "excerpt": "Service desks modernized.",
+      "content": [
+        "Immigration service desks have been modernized.",
+        "The upgrade improves customer service experience."
+      ]
+    },
+    {
+      "id": "border-risk-analysis",
+      "title": "Advanced Border Risk Analysis Framework Introduced",
+      "date": "20 April 2025",
+      "image": "/images/news-56.png",
+      "excerpt": "Risk analysis framework introduced.",
+      "content": [
+        "An advanced border risk analysis framework has been introduced.",
+        "The framework supports proactive risk management."
+      ]
+    },
+    {
+      "id": "immigration-operations-review",
+      "title": "Annual Review of Immigration Operations Completed",
+      "date": "8 April 2025",
+      "image": "/images/news-57.png",
+      "excerpt": "Operations review completed.",
+      "content": [
+        "The annual review of immigration operations has been completed.",
+        "The review highlights performance improvements."
+      ]
+    },
+    {
+      "id": "digital-document-archive",
+      "title": "Digital Document Archiving System Implemented",
+      "date": "25 March 2025",
+      "image": "/images/news-58.png",
+      "excerpt": "Document archiving digitized.",
+      "content": [
+        "A digital document archiving system has been implemented.",
+        "The system improves record management."
+      ]
+    },
+    {
+      "id": "inter-agency-coordination",
+      "title": "Inter-Agency Coordination Mechanism Strengthened",
+      "date": "12 March 2025",
+      "image": "/images/news-59.png",
+      "excerpt": "Coordination strengthened.",
+      "content": [
+        "Inter-agency coordination mechanisms have been strengthened.",
+        "This improves joint operational effectiveness."
+      ]
+    },
+    {
+      "id": "immigration-innovation-lab",
+      "title": "Immigration Innovation Lab Launched",
+      "date": "28 February 2025",
+      "image": "/images/news-60.png",
+      "excerpt": "Innovation lab launched.",
+      "content": [
+        "An immigration innovation lab has been launched.",
+        "The lab explores digital solutions for border management."
+      ]
+    },
+    {
+      "id": "border-staff-rotation",
+      "title": "New Border Staff Rotation Policy Implemented",
+      "date": "10 February 2025",
+      "image": "/images/news-61.png",
+      "excerpt": "Staff rotation policy implemented.",
+      "content": [
+        "A new border staff rotation policy has been implemented.",
+        "The policy enhances operational resilience."
+      ]
+    },
+    {
+      "id": "immigration-performance-dashboard",
+      "title": "Immigration Performance Dashboard Goes Live",
+      "date": "25 January 2025",
+      "image": "/images/news-62.png",
+      "excerpt": "Performance dashboard launched.",
+      "content": [
+        "An immigration performance dashboard has gone live.",
+        "The dashboard supports data-driven decision making."
+      ]
+    },
+    {
+      "id": "border-ai-monitoring",
+      "title": "AI-Based Border Monitoring System Introduced",
+      "date": "15 January 2026",
+      "image": "/images/news-63.png",
+      "excerpt": "AI monitoring introduced.",
+      "content": [
+        "An AI-based border monitoring system has been introduced.",
+        "The system enhances real-time surveillance and threat detection."
+      ]
+    },
+    {
+      "id": "airport-e-gate-expansion",
+      "title": "e-Gate Facilities Expanded at International Airport",
+      "date": "8 January 2026",
+      "image": "/images/news-64.png",
+      "excerpt": "e-Gate expansion completed.",
+      "content": [
+        "e-Gate facilities have been expanded.",
+        "This reduces passenger processing time."
+      ]
+    },
+    {
+      "id": "visa-policy-alignment",
+      "title": "Visa Policy Alignment with Regional Standards Completed",
+      "date": "28 December 2025",
+      "image": "/images/news-65.png",
+      "excerpt": "Visa policies aligned.",
+      "content": [
+        "Visa policies have been aligned with regional standards.",
+        "The alignment supports smoother travel procedures."
+      ]
+    },
+    {
+      "id": "immigration-command-center",
+      "title": "Central Immigration Command Center Inaugurated",
+      "date": "20 December 2025",
+      "image": "/images/news-66.png",
+      "excerpt": "Command center inaugurated.",
+      "content": [
+        "A central immigration command center has been inaugurated.",
+        "The center coordinates nationwide operations."
+      ]
+    },
+    {
+      "id": "border-patrol-vessels",
+      "title": "New Border Patrol Vessels Commissioned",
+      "date": "12 December 2025",
+      "image": "/images/news-67.png",
+      "excerpt": "Patrol vessels commissioned.",
+      "content": [
+        "New border patrol vessels have been commissioned.",
+        "They enhance maritime border security."
+      ]
+    },
+    {
+      "id": "smart-visa-tracking",
+      "title": "Smart Visa Tracking System Rolled Out",
+      "date": "5 December 2025",
+      "image": "/images/news-68.png",
+      "excerpt": "Visa tracking improved.",
+      "content": [
+        "A smart visa tracking system has been rolled out.",
+        "The system improves compliance monitoring."
+      ]
+    },
+    {
+      "id": "airport-biometric-upgrade-2",
+      "title": "Second Phase of Airport Biometric Upgrade Completed",
+      "date": "28 November 2025",
+      "image": "/images/news-69.png",
+      "excerpt": "Biometric upgrade phase two.",
+      "content": [
+        "Phase two of biometric upgrades has been completed.",
+        "The upgrade enhances passenger screening."
+      ]
+    },
+    {
+      "id": "regional-border-command",
+      "title": "Regional Border Command Units Established",
+      "date": "20 November 2025",
+      "image": "/images/news-70.png",
+      "excerpt": "Regional command units established.",
+      "content": [
+        "Regional border command units have been established.",
+        "They strengthen localized border management."
+      ]
+    },
+    {
+      "id": "immigration-mobile-app",
+      "title": "Official Immigration Mobile App Launched",
+      "date": "12 November 2025",
+      "image": "/images/news-71.png",
+      "excerpt": "Mobile app launched.",
+      "content": [
+        "The official immigration mobile app has been launched.",
+        "The app provides digital services to the public."
+      ]
+    },
+    {
+      "id": "border-risk-training",
+      "title": "Advanced Border Risk Assessment Training Conducted",
+      "date": "5 November 2025",
+      "image": "/images/news-72.png",
+      "excerpt": "Risk assessment training.",
+      "content": [
+        "Advanced border risk assessment training was conducted.",
+        "Officers gained analytical skills."
+      ]
+    },
+
+    {
+      "id": "immigration-staff-certification",
+      "title": "Professional Certification Program Introduced for Immigration Staff",
+      "date": "28 October 2025",
+      "image": "/images/news-73.png",
+      "excerpt": "Certification program introduced.",
+      "content": [
+        "A professional certification program has been introduced.",
+        "The program enhances staff competencies."
+      ]
+    },
+    {
+      "id": "border-surveillance-drones",
+      "title": "Surveillance Drones Deployed for Border Monitoring",
+      "date": "20 October 2025",
+      "image": "/images/news-74.png",
+      "excerpt": "Drones deployed.",
+      "content": [
+        "Surveillance drones have been deployed.",
+        "They improve border coverage and response."
+      ]
+    },
+    {
+      "id": "immigration-customer-feedback",
+      "title": "Customer Feedback System Introduced at Immigration Offices",
+      "date": "12 October 2025",
+      "image": "/images/news-75.png",
+      "excerpt": "Feedback system launched.",
+      "content": [
+        "A customer feedback system has been introduced.",
+        "The system supports service improvements."
+      ]
+    },
+    {
+      "id": "border-data-analytics",
+      "title": "Border Data Analytics Platform Goes Live",
+      "date": "30 September 2025",
+      "image": "/images/news-76.png",
+      "excerpt": "Analytics platform launched.",
+      "content": [
+        "A border data analytics platform has gone live.",
+        "It supports predictive analysis."
+      ]
+    },
+    {
+      "id": "immigration-ethics-guidelines",
+      "title": "Updated Ethics Guidelines Issued for Immigration Personnel",
+      "date": "22 September 2025",
+      "image": "/images/news-77.png",
+      "excerpt": "Ethics guidelines updated.",
+      "content": [
+        "Updated ethics guidelines have been issued.",
+        "They reinforce integrity and professionalism."
+      ]
+    },
+    {
+      "id": "cross-border-cooperation",
+      "title": "Cross-Border Cooperation Framework Strengthened",
+      "date": "15 September 2025",
+      "image": "/images/news-78.png",
+      "excerpt": "Cooperation framework strengthened.",
+      "content": [
+        "Cross-border cooperation frameworks have been strengthened.",
+        "The framework improves information sharing."
+      ]
+    },
+    {
+      "id": "immigration-digital-training",
+      "title": "Digital Skills Training Conducted for Immigration Officers",
+      "date": "5 September 2025",
+      "image": "/images/news-79.png",
+      "excerpt": "Digital training conducted.",
+      "content": [
+        "Digital skills training has been conducted.",
+        "Officers learned new digital tools."
+      ]
+    },
+    {
+      "id": "border-incident-response",
+      "title": "Border Incident Response Protocols Updated",
+      "date": "28 August 2025",
+      "image": "/images/news-80.png",
+      "excerpt": "Response protocols updated.",
+      "content": [
+        "Border incident response protocols have been updated.",
+        "The update improves emergency handling."
+      ]
+    },
+    {
+      "id": "immigration-performance-review",
+      "title": "Mid-Year Immigration Performance Review Completed",
+      "date": "18 August 2025",
+      "image": "/images/news-81.png",
+      "excerpt": "Performance review completed.",
+      "content": [
+        "A mid-year performance review has been completed.",
+        "The review highlights key achievements."
+      ]
+    },
+    {
+      "id": "border-infrastructure-audit",
+      "title": "Comprehensive Audit Conducted on Border Infrastructure",
+      "date": "8 August 2025",
+      "image": "/images/news-82.png",
+      "excerpt": "Infrastructure audit conducted.",
+      "content": [
+        "A comprehensive audit has been conducted.",
+        "Findings will guide upgrades."
+      ]
+    },
+
+    {
+      "id": "immigration-innovation-award",
+      "title": "Immigration Department Receives Innovation Award",
+      "date": "30 July 2025",
+      "image": "/images/news-83.png",
+      "excerpt": "Innovation award received.",
+      "content": [
+        "The department received an innovation award.",
+        "The award recognizes digital transformation efforts."
+      ]
+    },
+    {
+      "id": "border-security-workshop",
+      "title": "Border Security Workshop Held with Regional Partners",
+      "date": "20 July 2025",
+      "image": "/images/news-84.png",
+      "excerpt": "Workshop conducted.",
+      "content": [
+        "A border security workshop was held.",
+        "Regional partners shared best practices."
+      ]
+    },
+    {
+      "id": "immigration-legal-training",
+      "title": "Legal Compliance Training Conducted for Immigration Officers",
+      "date": "12 July 2025",
+      "image": "/images/news-85.png",
+      "excerpt": "Legal training conducted.",
+      "content": [
+        "Legal compliance training has been conducted.",
+        "The training strengthens enforcement accuracy."
+      ]
+    },
+    {
+      "id": "border-access-modernization",
+      "title": "Border Access Points Modernized Nationwide",
+      "date": "2 July 2025",
+      "image": "/images/news-86.png",
+      "excerpt": "Access points modernized.",
+      "content": [
+        "Border access points have been modernized.",
+        "The modernization improves security and efficiency."
+      ]
+    },
+    {
+      "id": "immigration-service-quality",
+      "title": "Service Quality Improvement Initiative Launched",
+      "date": "22 June 2025",
+      "image": "/images/news-87.png",
+      "excerpt": "Service quality initiative launched.",
+      "content": [
+        "A service quality improvement initiative has been launched.",
+        "The initiative focuses on customer satisfaction."
+      ]
+    },
+    {
+      "id": "border-technology-pilot",
+      "title": "Pilot Project Launched for New Border Technologies",
+      "date": "12 June 2025",
+      "image": "/images/news-88.png",
+      "excerpt": "Technology pilot launched.",
+      "content": [
+        "A pilot project for new border technologies has been launched.",
+        "The project evaluates next-generation systems."
+      ]
+    },
+    {
+      "id": "immigration-data-governance",
+      "title": "Data Governance Framework Established for Immigration Systems",
+      "date": "2 June 2025",
+      "image": "/images/news-89.png",
+      "excerpt": "Data governance established.",
+      "content": [
+        "A data governance framework has been established.",
+        "The framework ensures data integrity and security."
+      ]
+    },
+    {
+      "id": "border-control-awareness",
+      "title": "Public Awareness Program on Border Control Launched",
+      "date": "22 May 2025",
+      "image": "/images/news-90.png",
+      "excerpt": "Awareness program launched.",
+      "content": [
+        "A public awareness program has been launched.",
+        "The program educates travelers on border regulations."
+      ]
+    },
+    {
+      "id": "immigration-operations-center",
+      "title": "Immigration Operations Coordination Center Activated",
+      "date": "10 May 2025",
+      "image": "/images/news-91.png",
+      "excerpt": "Operations center activated.",
+      "content": [
+        "An operations coordination center has been activated.",
+        "The center improves response coordination."
+      ]
+    },
+    {
+      "id": "border-process-reengineering",
+      "title": "Border Processing Procedures Reengineered",
+      "date": "30 April 2025",
+      "image": "/images/news-92.png",
+      "excerpt": "Procedures reengineered.",
+      "content": [
+        "Border processing procedures have been reengineered.",
+        "The changes reduce processing times."
+      ]
+    },
+
+    {
+      "id": "immigration-service-transparency",
+      "title": "New Measures Introduced to Enhance Service Transparency",
+      "date": "20 April 2025",
+      "image": "/images/news-93.png",
+      "excerpt": "Transparency measures introduced.",
+      "content": [
+        "New measures have been introduced.",
+        "They enhance transparency in immigration services."
+      ]
+    },
+    {
+      "id": "border-security-certification",
+      "title": "Border Security Certification Program Launched",
+      "date": "8 April 2025",
+      "image": "/images/news-94.png",
+      "excerpt": "Certification program launched.",
+      "content": [
+        "A border security certification program has been launched.",
+        "The program standardizes security practices."
+      ]
+    },
+    {
+      "id": "immigration-digital-archive",
+      "title": "Digital Archive System Expanded for Immigration Records",
+      "date": "28 March 2025",
+      "image": "/images/news-95.png",
+      "excerpt": "Digital archive expanded.",
+      "content": [
+        "The digital archive system has been expanded.",
+        "The expansion improves record accessibility."
+      ]
+    },
+    {
+      "id": "border-coordination-drill",
+      "title": "National Border Coordination Drill Conducted",
+      "date": "15 March 2025",
+      "image": "/images/news-96.png",
+      "excerpt": "Coordination drill conducted.",
+      "content": [
+        "A national border coordination drill was conducted.",
+        "The drill tested inter-agency response."
+      ]
+    },
+    {
+      "id": "immigration-systems-interoperability",
+      "title": "Interoperability Achieved Across Immigration Systems",
+      "date": "2 March 2025",
+      "image": "/images/news-97.png",
+      "excerpt": "Systems interoperable.",
+      "content": [
+        "Interoperability has been achieved across systems.",
+        "This enables seamless data exchange."
+      ]
+    },
+    {
+      "id": "border-capacity-expansion",
+      "title": "Border Capacity Expansion Project Completed",
+      "date": "20 February 2025",
+      "image": "/images/news-98.png",
+      "excerpt": "Capacity expansion completed.",
+      "content": [
+        "A border capacity expansion project has been completed.",
+        "The project supports increased traffic."
+      ]
+    },
+    {
+      "id": "immigration-service-digitization",
+      "title": "Additional Immigration Services Digitized",
+      "date": "8 February 2025",
+      "image": "/images/news-99.png",
+      "excerpt": "Services digitized.",
+      "content": [
+        "Additional immigration services have been digitized.",
+        "The digitization improves service access."
+      ]
+    },
+    {
+      "id": "border-policy-consultation",
+      "title": "Public Consultation Held on Border Policy Updates",
+      "date": "28 January 2025",
+      "image": "/images/news-100.png",
+      "excerpt": "Policy consultation held.",
+      "content": [
+        "A public consultation was held.",
+        "Feedback will inform policy updates."
+      ]
+    },
+    {
+      "id": "immigration-annual-report",
+      "title": "Immigration Annual Performance Report Published",
+      "date": "15 January 2025",
+      "image": "/images/news-101.png",
+      "excerpt": "Annual report published.",
+      "content": [
+        "The annual performance report has been published.",
+        "The report outlines achievements and challenges."
+      ]
+    },
+    {
+      "id": "border-security-roadmap",
+      "title": "Five-Year Border Security Roadmap Unveiled",
+      "date": "5 January 2025",
+      "image": "/images/news-102.png",
+      "excerpt": "Security roadmap unveiled.",
+      "content": [
+        "A five-year border security roadmap has been unveiled.",
+        "The roadmap guides future investments."
+      ]
+    }
+  ]
+}

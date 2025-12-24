@@ -37,7 +37,7 @@ export default function LatestStories({
 }: LatestStoriesProps) {
   return (
     <section className="bg-white py-24">
-      <div className="max-w-7xl mx-auto px-6">
+      <div className="container mx-auto px-6">
         {/* SECTION TITLE */}
         <motion.h2
           initial={{ opacity: 0, y: 24 }}
@@ -110,12 +110,11 @@ export default function LatestStories({
             href={cta.href}
             className="
               inline-flex items-center gap-2
-              bg-[#1E4ED8]
+              bg-gradient-to-r from-[#0C286B] to-[#3266E2]
               text-white
               px-7 py-3
-              rounded-full
-              text-[14px] font-medium
-              hover:bg-[#163CB8]
+              rounded-md
+              text-[14px] font-medium 
               transition
             "
           >

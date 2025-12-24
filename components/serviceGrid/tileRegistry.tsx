@@ -5,12 +5,14 @@ import IconTile from "./IconTile";
 import FirstTile from "./firstTile";
 import TravellerTile from "./TravellerTile";
 import TravellerApplyTile from "./TravellerApplyTile";
+import VisaServiceTile from "./VisaServiceTile";
 
 export const TILE_COMPONENTS = {
   default: DefaultTile,
   first: FirstTile,
   second: TravellerTile,
   secondHover: TravellerApplyTile,
+  third: VisaServiceTile,
   hover: HoverTile,
   stats: StatsTile,
   icon: IconTile,

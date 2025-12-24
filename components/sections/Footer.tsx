@@ -39,7 +39,13 @@ export default function Footer({ section }: Props) {
   };
 
   return (
-    <footer className="relative bg-gradient-to-b from-[#1b3b7a] via-[#0d2552] to-[#061633] text-white overflow-hidden">
+    <footer
+      style={{
+        backgroundImage:
+          "linear-gradient(515deg, #1f3b82 0%, #0f1f4a 45%, #070f2b 100%)",
+      }}
+      className="relative text-white overflow-hidden"
+    >
       {/* TOP */}
       <div className="max-w-[1280px] mx-auto px-10 pt-24 pb-20">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-x-20 gap-y-14">

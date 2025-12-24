@@ -31,7 +31,7 @@ export default function InstitutionalProfile({
 }: InstitutionalProfileProps) {
   return (
     <section className="bg-white py-20">
-      <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-3 gap-16 items-start">
+      <div className="container mx-auto px-6 grid grid-cols-1 lg:grid-cols-3 gap-16 items-start">
         {/* LEFT TEXT */}
         <motion.div
           variants={fadeUp}
@@ -39,7 +39,7 @@ export default function InstitutionalProfile({
           whileInView="visible"
           transition={{ duration: 0.6, ease: "easeOut" }}
           viewport={{ once: true }}
-          className="lg:col-span-1"
+          className="lg:col-span-1 self-center"
         >
           <h2 className="text-[28px] font-semibold tracking-wide text-[#0A2249] mb-6">
             {title}
@@ -54,14 +54,14 @@ export default function InstitutionalProfile({
           whileInView={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.6, ease: "easeOut", delay: 0.1 }}
           viewport={{ once: true }}
-          className="lg:col-span-1 flex justify-center"
+          className="lg:col-span-1 flex justify-center self-center"
         >
           <Image
             src={image.src}
             alt={image.alt}
             width={420}
             height={520}
-            className="object-contain"
+            className="object-contain w-full hover:scale-125 scale-110"
           />
         </motion.div>
 

@@ -58,7 +58,7 @@
 
       "metrics": {
         "rowHeight": { "mobile": 10, "tablet": 20, "desktop": 30 },
-        "gap": 24
+        "gap": 18
       },
 
       "debug": {
@@ -114,7 +114,7 @@
           "id": "visa",
           "title": "Visa Service",
           "href": "/visa-service",
-          "image": "/images/flags.png",
+          "image": "/public/svg/visa.svg",
           "background": {
             "gradient": "linear-gradient(125deg,#0d161f 0%,#0c3daf 99%)",
             "image": {
@@ -123,7 +123,7 @@
             }
           },
           "hoverSwap": {
-            "default": "stats",
+            "default": "third",
             "hover": "icon"
           },
           "placement": {
@@ -214,7 +214,7 @@
       "description": "At Maldives Immigration, our mission is clear: to safeguard national security while providing quality, convenient, and professional immigration services. We are committed to facilitating legitimate travel, proactively detecting immigration-related crimes, and ensuring Maldivian citizens have a trustworthy international travel identity.",
 
       "image": {
-        "src": "/images/institutional-staff.png",
+        "src": "/images/institutional/staff.png",
         "alt": "Maldives Immigration Officers"
       },
 
@@ -290,7 +290,7 @@
       "person": {
         "name": "Ahmed Faseeh",
         "designation": "Controller General of Immigration",
-        "image": "/images/ahmed-faseeh.png"
+        "image": "/images/leadership/person.png"
       },
 
       "content": [
@@ -410,7 +410,7 @@
       "id": "mi-id-checker",
       "title": "New Facial Recognition System to Streamline the Identification of Undocumented Foreign Workers",
       "date": "10 November 2025",
-      "image": "/images/news-1.png",
+      "image": "/images/stories/card-1.jpg",
       "excerpt": "New system introduced to strengthen identity verification.",
       "content": [
         "Maldives Immigration has introduced a new facial recognition system.",
@@ -422,7 +422,7 @@
       "id": "e-visa",
       "title": "A New Era of Change with the Introduction of the e-Visa Service",
       "date": "10 November 2025",
-      "image": "/images/news-2.png",
+      "image": "/images/stories/card-2.jpg",
       "excerpt": "e-Visa service launched.",
       "content": ["e-Visa service introduced."]
     },
@@ -430,7 +430,7 @@
       "id": "campaigns",
       "title": "Launching Three New Campaigns for Service Enhancement",
       "date": "21 August 2025",
-      "image": "/images/news-3.png",
+      "image": "/images/stories/card-3.jpg",
       "excerpt": "Service culture campaigns.",
       "content": ["Three campaigns launched."]
     },
@@ -438,7 +438,7 @@
       "id": "hamamagu",
       "title": "Operation Hamamagu Conducted in Addu City",
       "date": "25 June 2025",
-      "image": "/images/news-4.png",
+      "image": "/images/stories/card-4.jpg",
       "excerpt": "Major raid conducted.",
       "content": ["Raid conducted in Addu City."]
     },
@@ -446,7 +446,7 @@
       "id": "dhuvaafaru",
       "title": "Raid Operation in R. Dhuvaafaru",
       "date": "24 April 2025",
-      "image": "/images/news-5.png",
+      "image": "/images/stories/card-5.jpg",
       "excerpt": "51 detained.",
       "content": ["51 expatriates detained."]
     },
@@ -454,7 +454,7 @@
       "id": "haa-alif-office",
       "title": "Agreement Signed for New Immigration Office in Haa Alif Atoll",
       "date": "27 March 2025",
-      "image": "/images/news-6.png",
+      "image": "/images/stories/card-6.jpg",
       "excerpt": "New office planned.",
       "content": ["New office agreement signed."]
     },
@@ -463,7 +463,7 @@
       "id": "airport-upgrade",
       "title": "Velana International Airport Immigration Counters Upgraded",
       "date": "12 February 2025",
-      "image": "/images/news-7.png",
+      "image": "/images/stories/card-7.jpg",
       "excerpt": "Counters upgraded.",
       "content": ["Counters upgraded."]
     },
@@ -471,7 +471,7 @@
       "id": "training-program",
       "title": "Advanced Training Program for Immigration Officers",
       "date": "30 January 2025",
-      "image": "/images/news-8.png",
+      "image": "/images/stories/card-8.jpg",
       "excerpt": "Training program.",
       "content": ["Training conducted."]
     },
@@ -479,7 +479,7 @@
       "id": "regional-cooperation",
       "title": "Regional Cooperation Meeting on Border Security",
       "date": "15 January 2025",
-      "image": "/images/news-9.png",
+      "image": "/images/stories/card-9.jpg",
       "excerpt": "Regional meeting.",
       "content": ["Meeting held."]
     },

@@ -44,15 +44,15 @@ export interface Navbar {
  * Defines how the container grid itself is divided
  */
 export interface GridDefinition {
-  columns: BreakpointValue; // e.g. { mobile:1, tablet:2, desktop:3 }
+  columns: BreakpointValue;
 }
 
 /**
  * Visual metrics for the grid
  */
 export interface GridMetrics {
-  rowHeight: BreakpointValue; // px
-  gap?: number; // px
+  rowHeight: BreakpointValue;
+  gap?: number;
 }
 
 /**
@@ -64,7 +64,6 @@ export interface GridDebug {
 
 /**
  * Exact placement of a tile inside the grid
- * (CSS Grid style, 1-based)
  */
 export interface GridPlacement {
   colStart?: BreakpointValue;
@@ -74,63 +73,43 @@ export interface GridPlacement {
 }
 
 /* ======================================================
-   SERVICE GRID – HOVER SWAP SUPPORT
+   SERVICE GRID – HOVER / BACKGROUND SUPPORT
 ====================================================== */
 
-/**
- * What content shows in tile states
- */
 export interface TileBackground {
-  /** Background image (base layer) */
-  image?: { src: string; opacity: string; transform: string };
-
-  /** Gradient overlay (top layer) */
+  image?: {
+    src: string;
+    opacity: string;
+    transform: string;
+  };
   gradient?: string;
-
-  /** Solid color fallback */
   color?: string;
 }
+
 export type TileContentKey = "default" | "hover" | "stats" | "icon";
 
-/**
- * Controls which content shows by default and on hover
- */
 export interface TileHoverSwap {
   default?: TileContentKey;
   hover?: TileContentKey;
 }
 
-/**
- * Single service tile/card
- */
 export interface ServiceGridTile {
   id: string;
   title: string;
   href: string;
-
-  /** image path only (for next/image) */
   image: string;
   decorImage?: string;
-
-  /** exact grid placement (optional) */
   placement?: GridPlacement;
-
-  /** hover behaviour control (optional) */
   hoverSwap?: TileHoverSwap;
   background?: TileBackground;
 }
 
-/**
- * Service Grid section
- */
 export interface ServiceGridSection {
   id: string;
   type: "serviceGrid";
-
   grid: GridDefinition;
   metrics: GridMetrics;
   debug?: GridDebug;
-
   tiles: ServiceGridTile[];
 }
 
@@ -197,13 +176,89 @@ export interface BreadcrumbItem {
 }
 
 /* ======================================================
+   NEW SECTIONS (BASED ON YOUR LATEST JSON)
+====================================================== */
+
+/* ---------- IMMIGRATION STATISTICS ---------- */
+
+export interface ImmigrationStatisticItem {
+  value: string;
+  title: string;
+  description: string;
+}
+
+export interface ImmigrationStatisticsSection {
+  id: string;
+  type: "immigrationStatistics";
+  header: {
+    title: string;
+    year: string;
+  };
+  background?: {
+    image?: string;
+  };
+  items: ImmigrationStatisticItem[];
+}
+
+/* ---------- LEADERSHIP PROFILE ---------- */
+
+export interface LeadershipPerson {
+  name: string;
+  designation: string;
+  image: string;
+}
+
+export interface LeadershipProfileSection {
+  id: string;
+  type: "leadershipProfile";
+  person: LeadershipPerson;
+  content: string[];
+}
+
+/* ---------- FOOTER ---------- */
+
+export interface FooterLink {
+  label: string;
+  href: string;
+}
+
+export interface FooterColumn {
+  title: string;
+  links: FooterLink[];
+}
+export type SocialType = "instagram" | "x" | "facebook" | "youtube";
+
+export interface FooterSocial {
+  type: SocialType;
+  href: string;
+}
+
+export interface FooterSection {
+  id: string;
+  type: "footer";
+  columns: FooterColumn[];
+  contact: {
+    phone: string;
+    email: string;
+  };
+  bottom: {
+    copyright: string;
+    logo: ImageType;
+    social: FooterSocial[];
+  };
+}
+
+/* ======================================================
    PAGE ROOT
 ====================================================== */
 
 export type Section =
   | ServiceGridSection
   | InstitutionalProfileSection
-  | LatestStoriesSection;
+  | LatestStoriesSection
+  | ImmigrationStatisticsSection
+  | LeadershipProfileSection
+  | FooterSection;
 
 export interface PageData {
   navbar: Navbar;

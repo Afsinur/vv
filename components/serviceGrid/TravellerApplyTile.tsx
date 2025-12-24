@@ -9,9 +9,9 @@ export default function TravellerApplyTile({
   return (
     <div className="relative w-full h-full overflow-hidden bg-[linear-gradient(135deg,#4fd1c5_0%,#2c7a7b_100%)]">
       {/* ===== TEXT + CTA (LEFT) ===== */}
-      <div className="absolute left-16 bottom-20 z-10">
+      <div className="absolute left-16 bottom-12 z-10">
         <h3
-          className="text-white text-[32px] leading-tight font-[400] uppercase tracking-wide"
+          className="text-black text-[32px] leading-tight font-[400] uppercase tracking-wide"
           dangerouslySetInnerHTML={{ __html: tile.title }}
         />
 
@@ -61,8 +61,8 @@ export default function TravellerApplyTile({
           height={240}
           className="
             absolute
-            right-[15%]
-            bottom-[28%]
+            right-[14%]
+            bottom-[22%]
             w-[20%]
             max-w-[140px]
             h-auto

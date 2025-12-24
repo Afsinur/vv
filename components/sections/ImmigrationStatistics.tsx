@@ -15,17 +15,26 @@ export default function ImmigrationStatistics({ section }: Props) {
   return (
     <section className="relative overflow-hidden">
       {/* Background */}
-      <div className="absolute inset-0 -z-10">
-        <Image
-          src={section.background.image}
-          alt=""
-          fill
-          className="object-cover"
-          priority
-        />
-        {/* Exact dark-blue gradient */}
-        <div className="absolute inset-0 bg-gradient-to-b from-[#1b3b7a]/90 via-[#0d2552]/90 to-[#061633]/95" />
-      </div>
+
+      {section.background?.image && (
+        <div className="absolute inset-0 -z-10">
+          <Image
+            src={section.background.image}
+            alt=""
+            fill
+            className="object-cover"
+            priority
+          />
+          {/* Exact dark-blue gradient */}
+          <div
+            style={{
+              backgroundImage:
+                "linear-gradient(515deg, #1f3b82 0%, #0f1f4a 45%, #070f2b 100%)",
+            }}
+            className="absolute inset-0"
+          />
+        </div>
+      )}
 
       <div className="max-w-7xl mx-auto px-6 py-28">
         {/* Header */}

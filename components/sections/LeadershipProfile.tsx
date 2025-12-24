@@ -13,14 +13,14 @@ export default function LeadershipProfile({ section }: Props) {
 
   return (
     <section className="bg-white">
-      <div className="max-w-[1100px] mx-auto px-6 pt-28 pb-32">
+      <div className="max-w-6xl mx-auto px-6 pt-28 pb-32">
         {/* Top Row */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5, ease: "easeOut" }}
-          className="grid md:grid-cols-2 items-center gap-20"
+          className="flex items-center justify-center gap-20"
         >
           {/* Name & Title */}
           <div className="pl-2">
@@ -39,7 +39,7 @@ export default function LeadershipProfile({ section }: Props) {
               alt={person.name}
               width={300}
               height={420}
-              className="object-contain"
+              className="object-contain scale-150"
               priority
             />
           </div>
@@ -49,7 +49,7 @@ export default function LeadershipProfile({ section }: Props) {
         <div className="border-t border-gray-200 mt-20 mb-14 max-w-[820px]" />
 
         {/* Body Text */}
-        <div className="max-w-[820px] space-y-6">
+        <div className="space-y-6">
           {content.map((paragraph: string, i: number) => (
             <motion.p
               key={i}

@@ -43,7 +43,7 @@ export default function FirstTileHover({ tile }: { tile: ServiceGridTile }) {
         />
       </motion.div> */}
       {/* ===== TITLE TEXT ===== */}
-      <h3 className="text-white text-center text-[20px] leading-[24px] font-[400] tracking-wide">
+      <h3 className="text-white text-left text-[20px] leading-[24px] font-[400] tracking-wide">
         <span className="whitespace-nowrap">Shaker</span> <br />{" "}
         <span className="whitespace-nowrap">
           International Emergency Task Force

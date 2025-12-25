@@ -20,7 +20,7 @@ export default function MaldivianPassportTileHover({
       <motion.div
         className="
           absolute
-          left-[60px]
+          left-[30px]
           top-[60px]
           z-0
         "
@@ -46,8 +46,11 @@ export default function MaldivianPassportTileHover({
          ===================== */}
       <div className="absolute right-10 bottom-12 z-10 text-right grid gap-4">
         <h3 className="text-black text-left text-[20px] leading-[24px] font-[400] tracking-wide">
-          <span className="whitespace-nowrap">Shaker Global Women’s</span>
-          <br /> <span className="whitespace-nowrap">Rights Foundation</span>
+          <span className="whitespace-nowrap">Shaker </span>
+          <br />{" "}
+          <span className="whitespace-nowrap">
+            Global Women’s Rights Foundation
+          </span>
         </h3>
 
         <div className="flex justify-start">

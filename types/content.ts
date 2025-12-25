@@ -28,7 +28,7 @@ export type NavbarMenuItem = {
 };
 
 export interface Navbar {
-  logo: ImageType;
+  logo?: ImageType;
   items: NavbarMenuItem[];
   actions?: {
     search?: boolean;

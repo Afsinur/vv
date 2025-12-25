@@ -8,26 +8,26 @@ const oswald = Oswald({
 });
 
 export const metadata: Metadata = {
-  title: "Morad Shaker | Youth Leadership & Community Development",
+  title: "M. Shaker | Youth Leadership & Community Development",
   description:
-    "Morad Shaker is dedicated to empowering youth through leadership, creativity, education, and community-driven initiatives for a better future.",
+    "M. Shaker is dedicated to empowering youth through leadership, creativity, education, and community-driven initiatives for a better future.",
   robots: "index, follow",
-  authors: [{ name: "Morad Shaker" }],
+  authors: [{ name: "M. Shaker" }],
   themeColor: "#111827",
   openGraph: {
-    title: "Morad Shaker — Empowering Youth & Future Leaders",
+    title: "M. Shaker — Empowering Youth & Future Leaders",
     description:
       "Empowering young minds through leadership, creativity, teamwork, and education to build confident future leaders.",
-    url: "https://www.moradshaker.com",
-    siteName: "Morad Shaker",
+    url: "https://www.M.shaker.com",
+    siteName: "M. Shaker",
     type: "website",
     locale: "en_US",
     images: [
       {
-        url: "https://www.moradshaker.com/images/og-banner.jpg",
+        url: "https://www.M.shaker.com/images/og-banner.jpg",
         width: 1200,
         height: 630,
-        alt: "Morad Shaker youth leadership and community development",
+        alt: "M. Shaker youth leadership and community development",
       },
     ],
   },
@@ -42,11 +42,11 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <meta name="google-site-verification" content="" />
-        <link rel="canonical" href="https://www.moradshaker.com" />
-        <meta name="author" content="Morad Shaker" />
+        <link rel="canonical" href="https://www.M.shaker.com" />
+        <meta name="author" content="M. Shaker" />
         <meta
           name="keywords"
-          content="Morad Shaker, youth leadership, community development, education, creativity, leadership training, youth empowerment"
+          content="M. Shaker, youth leadership, community development, education, creativity, leadership training, youth empowerment"
         />
         <link
           rel="icon"

@@ -82,15 +82,18 @@ export default function Navbar({
           <div className="container mx-auto px-6 h-[112px] flex items-center justify-between">
             {/* LOGO */}
             <Link href="/" className="flex items-center gap-3">
-              <Image
-                src={logo.src}
-                alt={logo.alt}
-                width={42}
-                height={42}
-                className="object-contain"
-              />
+              {logo.src && (
+                <Image
+                  src={logo.src}
+                  alt={logo.alt}
+                  width={42}
+                  height={42}
+                  className="object-contain"
+                />
+              )}
+
               <span className="hidden md:block text-[13px] font-semibold tracking-wide">
-                MALDIVES IMMIGRATION
+                Shaker IMP
               </span>
             </Link>
 

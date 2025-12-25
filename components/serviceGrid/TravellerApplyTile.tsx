@@ -12,8 +12,8 @@ export default function TravellerApplyTile({
       {/* ===== TEXT + CTA (LEFT) ===== */}
       <div className="absolute left-16 bottom-12 z-10">
         <h3 className="text-white text-left text-[20px] leading-[24px] font-[400] tracking-wide">
-          <span className="whitespace-nowrap">Shaker International</span> <br />{" "}
-          <span className="whitespace-nowrap">Loan Programs</span>
+          <span className="whitespace-nowrap">Shaker </span> <br />{" "}
+          <span className="whitespace-nowrap">International Loan Programs</span>
         </h3>
 
         <button

@@ -62,9 +62,8 @@ export default function LeadershipProfile({ section }: Props) {
                 ease: "easeOut",
               }}
               className="text-gray-700 text-[15px] leading-[1.75]"
-            >
-              {paragraph}
-            </motion.p>
+              dangerouslySetInnerHTML={{ __html: paragraph }}
+            />
           ))}
         </div>
       </div>

@@ -67,9 +67,11 @@ export default function MaldivesBorderMilesTile({
          TITLE (TOP CENTER)
          ===================== */}
       <div className="absolute top-8 left-1/2 z-10 -translate-x-1/2 text-center gap-4 grid">
-        <h3 className="text-black text-center text-[20px] leading-[24px] font-[400] tracking-wide">
-          <span className="whitespace-nowrap">Shaker International</span> <br />{" "}
-          <span className="whitespace-nowrap">Scholarship Programs</span>
+        <h3 className="text-black text-left text-[20px] leading-[24px] font-[400] tracking-wide">
+          <span className="whitespace-nowrap">Shaker </span> <br />{" "}
+          <span className="whitespace-nowrap">
+            International Scholarship Programs
+          </span>
         </h3>
 
         <div className="flex justify-center">

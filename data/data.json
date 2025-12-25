@@ -11,7 +11,14 @@
     },
     "items": [
       { "label": "Home", "href": "/" },
-      { "label": "Traveller Declaration", "href": "/traveller-declaration" },
+      {
+        "label": "Mission",
+        "href": "/traveller-declaration",
+        "children": [
+          { "label": "Our Mission", "href": "/our-mission" },
+          { "label": "Our Vision", "href": "/our-vision" }
+        ]
+      },
       {
         "label": "Passport",
         "children": [
@@ -34,7 +41,14 @@
           { "label": "Downloads", "href": "/resources/downloads" }
         ]
       },
-      { "label": "Contact", "href": "/contact" },
+      {
+        "label": "Contact",
+        "href": "/contact",
+        "children": [
+          { "label": "NGOs", "href": "/ngos" },
+          { "label": "Country Leadership", "href": "/country-leadership" }
+        ]
+      },
       { "label": "Queue", "href": "/queue" }
     ],
     "actions": {

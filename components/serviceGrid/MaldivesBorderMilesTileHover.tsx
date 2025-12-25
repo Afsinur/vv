@@ -74,7 +74,7 @@ export default function MaldivesBorderMilesTile({
           </span>
         </h3>
 
-        <div className="flex justify-center">
+        <div className="flex justify-left">
           <button
             className="
             inline-flex items-center justify-center

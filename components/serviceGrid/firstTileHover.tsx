@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { ServiceGridTile } from "@/types/content";
+import { motion } from "framer-motion";
 
 export default function FirstTileHover({ tile }: { tile: ServiceGridTile }) {
   return (
@@ -20,6 +21,27 @@ export default function FirstTileHover({ tile }: { tile: ServiceGridTile }) {
         "
       />
 
+      {/* <motion.div
+        className="
+          absolute
+          right-[5%]
+          bottom-[5%]
+          z-0
+          -translate-x-1/2
+        "
+      >
+        <Image
+          src={`/images/service-grid/prog.gif`}
+          alt={tile.title}
+          width={60}
+          height={60}
+          className="
+            object-contain
+            pointer-events-none
+            scale-[150%]
+          "
+        />
+      </motion.div> */}
       {/* ===== TITLE TEXT ===== */}
       <h3 className="text-white text-center text-[20px] leading-[24px] font-[400] tracking-wide">
         <span className="whitespace-nowrap">Shaker International</span> <br />{" "}

@@ -92,6 +92,7 @@ export default function ServiceGrid(section: ServiceGridSection) {
               <Link
                 key={tile.id}
                 href={tile.href}
+                target="_blank"
                 style={{
                   gridColumn: colStart
                     ? `${colStart} / span ${colSpan}`

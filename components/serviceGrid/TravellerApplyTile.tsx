@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { ServiceGridTile } from "@/types/content";
+import { motion } from "framer-motion";
 
 export default function TravellerApplyTile({
   tile,
@@ -32,6 +33,28 @@ export default function TravellerApplyTile({
           APPLY
         </button>
       </div>
+
+      {/* <motion.div
+        className="
+                absolute
+                right-[5%]
+                bottom-[5%]
+                z-0
+                -translate-x-1/2
+              "
+      >
+        <Image
+          src={`/images/service-grid/prog.gif`}
+          alt={tile.title}
+          width={60}
+          height={60}
+          className="
+                  object-contain
+                  pointer-events-none
+                  scale-[150%]
+                "
+        />
+      </motion.div> */}
 
       {/* ===== PLANE IMAGE ===== */}
       <Image

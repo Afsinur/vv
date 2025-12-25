@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { ServiceGridTile } from "@/types/content";
+import { motion } from "framer-motion";
 
 export default function FirstTile({ tile }: { tile: ServiceGridTile }) {
   return (
@@ -20,9 +21,31 @@ export default function FirstTile({ tile }: { tile: ServiceGridTile }) {
         "
       />
 
+      {/* <motion.div
+        className="
+                absolute
+                right-[5%]
+                bottom-[5%]
+                z-0
+                -translate-x-1/2
+              "
+      >
+        <Image
+          src={`/images/service-grid/prog.gif`}
+          alt={tile.title}
+          width={60}
+          height={60}
+          className="
+                  object-contain
+                  pointer-events-none
+                  scale-[150%]
+                "
+        />
+      </motion.div> */}
+
       {/* ===== TITLE TEXT ===== */}
       <h3
-        className="font-[700] text-[24px] leading-snug uppercase tracking-wider"
+        className="text-white text-[32px] leading-tight font-[400] uppercase tracking-wide"
         dangerouslySetInnerHTML={{ __html: tile.title }}
       />
     </div>

@@ -45,7 +45,7 @@ export default function ImmigrationStatistics({ section }: Props) {
           transition={{ duration: 0.8, ease: "easeOut" }}
           className="mb-20"
         >
-          <h2 className="text-white text-3xl tracking-wide font-semibold">
+          <h2 className="text-white text-3xl tracking-wide font-semibold uppercase">
             {section.header.title}
           </h2>
           <p className="text-white/80 text-xl mt-2">{section.header.year}</p>

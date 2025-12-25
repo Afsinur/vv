@@ -20,56 +20,39 @@ export default function Page() {
         <div className="py-40 container mx-auto space-y-6">
           <h2 className="text-4xl mb-20 text-center">Our Mission</h2>
 
-          <p>
+          <h2>
             <strong>Mission and Strategic Purpose</strong>
-          </p>
+          </h2>
 
           <p>
             Shaker International Monetary Fund (Shaker IMF) is a private,
             independent global humanitarian and development finance institution,
             founded on the belief that one individual with vision, integrity,
             and determination can change the world—again—and help make it a
-            better place for millions.
-          </p>
-
-          <p>
-            Shaker IMF mobilizes ethical private capital, innovative financial
-            instruments, and strategic partnerships to support sustainable
-            development, economic resilience, and human dignity worldwide.
-          </p>
-
-          <p>
-            Our mission is aligned with the Sustainable Development Goals (SDGs)
-            adopted by the United Nations, with particular focus on No Poverty
-            (SDG 1), Decent Work and Economic Growth (SDG 8), Industry,
-            Innovation and Infrastructure (SDG 9), Reduced Inequalities (SDG
-            10), Climate Action (SDG 13), and Partnerships for the Goals (SDG
-            17).
-          </p>
-
-          <p>
-            Shaker IMF operates under a zero-tolerance, anti-corruption mandate,
-            prioritizing transparency, accountability, and clean governance to
-            ensure that financial resources serve people—regardless of
-            geography, nationality, politics, or religion.
+            better place for millions. Shaker IMF mobilizes ethical private
+            capital, innovative financial instruments, and strategic
+            partnerships to support sustainable development, economic
+            resilience, and human dignity worldwide. Our mission is aligned with
+            the Sustainable Development Goals (SDGs) adopted by the United
+            Nations, with particular focus on No Poverty (SDG 1), Decent Work
+            and Economic Growth (SDG 8), Industry, Innovation and Infrastructure
+            (SDG 9), Reduced Inequalities (SDG 10), Climate Action (SDG 13), and
+            Partnerships for the Goals (SDG 17). Shaker IMF operates under a
+            zero-tolerance, anti-corruption mandate, prioritizing transparency,
+            accountability, and clean governance to ensure that financial
+            resources serve people—regardless of geography, nationality,
+            politics, or religion.
           </p>
 
           <p>
             Shaker IMF partners with debt-burdened and financially distressed
             nations to help them responsibly exit debt traps, stabilize their
-            economies, and rebuild long-term national resilience.
-          </p>
-
-          <p>
-            Through ethical private financing, development-linked funding,
-            debt-relief structuring, and strict financial oversight, Shaker IMF
-            supports national leadership in strengthening fiscal discipline,
-            restoring investor confidence, and designing sustainable growth
-            pathways.
-          </p>
-
-          <p>
-            In parallel, Shaker IMF assists country leaderships in addressing
+            economies, and rebuild long-term national resilience. Through
+            ethical private financing, development-linked funding, debt-relief
+            structuring, and strict financial oversight, Shaker IMF supports
+            national leadership in strengthening fiscal discipline, restoring
+            investor confidence, and designing sustainable growth pathways. In
+            parallel, Shaker IMF assists country leaderships in addressing
             interconnected financial, economic, environmental, and structural
             challenges, helping governments develop realistic, transparent, and
             resilient solutions while fully respecting national sovereignty and
@@ -79,27 +62,20 @@ export default function Page() {
           <p>
             At its core, the primary mission of Shaker IMF is to reduce poverty
             levels across the planet by correcting financial systems that
-            perpetuate inequality and dependency.
+            perpetuate inequality and dependency. Shaker IMF finances
+            initiatives that expand economic opportunity, support job creation,
+            strengthen essential infrastructure, improve environmental
+            resilience, and empower local economies. By working collaboratively
+            with governments, humanitarian institutions, and responsible
+            private-sector partners, Shaker IMF helps leaderships create
+            conditions in which communities can rise out of poverty,
+            inequalities are reduced, and nations progress toward stability,
+            sustainability, and dignity for present and future generations.
           </p>
 
-          <p>
-            Shaker IMF finances initiatives that expand economic opportunity,
-            support job creation, strengthen essential infrastructure, improve
-            environmental resilience, and empower local economies.
-          </p>
-
-          <p>
-            By working collaboratively with governments, humanitarian
-            institutions, and responsible private-sector partners, Shaker IMF
-            helps leaderships create conditions in which communities can rise
-            out of poverty, inequalities are reduced, and nations progress
-            toward stability, sustainability, and dignity for present and future
-            generations.
-          </p>
-
-          <p>
+          <h2>
             <strong>What Makes Shaker IMF Different</strong>
-          </p>
+          </h2>
 
           <p>
             What fundamentally distinguishes Shaker IMF from other international
@@ -107,12 +83,7 @@ export default function Page() {
             not accept donations at any level or in any amount, does not charge
             interest, and does not pursue financial gain or benefit from its
             actions or partnerships with governments, NGOs, or the nations it
-            serves.
-          </p>
-
-          <p>We are not here to do business. We are here to serve people.</p>
-
-          <p>
+            serves. We are not here to do business. We are here to serve people.
             This principle is rooted in the founder’s belief that serving people
             is serving God, and it guides every decision, partnership, and
             mission undertaken by Shaker IMF.

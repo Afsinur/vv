@@ -47,7 +47,7 @@ export default function ServiceGrid(section: ServiceGridSection) {
   const gap = section.metrics.gap ?? 24;
 
   return (
-    <section className="py-12 bg-[#061733]">
+    <section className="pb-12 pt-1 bg-[#061733]">
       <div className="container mx-auto">
         <div
           className="relative"

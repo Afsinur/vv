@@ -59,7 +59,9 @@ export default function RootLayout({
         <link rel="manifest" href="/site.webmanifest" />
       </head>
 
-      <body className={`${oswald.className} relative scroll-padding`}>
+      <body
+        className={`${oswald.className} relative scroll-padding bg-gradient-to-b from-[#0B1C3A] to-[#12274e]`}
+      >
         {children}
       </body>
     </html>

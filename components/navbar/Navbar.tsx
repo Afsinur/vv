@@ -55,12 +55,12 @@ export default function Navbar({
         className={`w-full font-sans z-50 transition-shadow ${
           isFixed
             ? "fixed top-0 left-0 right-0 shadow-lg shadow-black/30"
-            : "relative"
+            : "relative bg-[unset]"
         }`}
       >
         {/* TOP GOVERNMENT BAR */}
         {topBar && (
-          <div className="bg-[#071A3A] text-white text-[11px] py-3 text-center">
+          <div className="bg-[#071A3A] text-white text-[14px] py-2 text-center border border-b border-b-gray-800">
             {topBar.text}{" "}
             <Link
               href={topBar.linkHref}
@@ -72,7 +72,13 @@ export default function Navbar({
         )}
 
         {/* MAIN NAVBAR */}
-        <div className="bg-[#0A2249] text-white">
+        <div
+          className={`text-white ${
+            isFixed
+              ? "bg-gradient-to-b from-[#0B1C3A] to-[#12274e]"
+              : "bg-transparent"
+          }`}
+        >
           <div className="container mx-auto px-6 h-[112px] flex items-center justify-between">
             {/* LOGO */}
             <Link href="/" className="flex items-center gap-3">
@@ -105,12 +111,14 @@ export default function Navbar({
                           <ul className="py-2">
                             {item.children.map((child) => (
                               <li key={child.label}>
-                                <Link
-                                  href={child.href}
-                                  className="block px-4 py-2 text-sm hover:bg-gray-100"
-                                >
-                                  {child.label}
-                                </Link>
+                                {child.href && (
+                                  <Link
+                                    href={child.href}
+                                    className="block px-4 py-2 text-sm hover:bg-gray-100"
+                                  >
+                                    {child.label}
+                                  </Link>
+                                )}
                               </li>
                             ))}
                           </ul>
@@ -167,7 +175,7 @@ export default function Navbar({
                       {item.children.map((sub, j) => (
                         <Link
                           key={j}
-                          href={sub.href}
+                          href={sub.href ?? `#`}
                           className="block px-10 py-3 text-sm text-gray-300"
                           onClick={() => setMobileOpen(false)}
                         >

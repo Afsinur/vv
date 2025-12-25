@@ -41,11 +41,11 @@ export default function InstitutionalProfile({
           viewport={{ once: true }}
           className="lg:col-span-1 self-center"
         >
-          <h2 className="text-[28px] font-semibold tracking-wide text-[#0A2249] mb-6">
+          <h2 className="text-[36px] font-semibold tracking-wide text-[#1c387c] mb-6">
             {title}
           </h2>
 
-          <p className="text-[15px] leading-7 text-gray-700">{description}</p>
+          <p className="text-[16px] leading-7 text-gray-700">{description}</p>
         </motion.div>
 
         {/* CENTER IMAGE */}
@@ -61,7 +61,7 @@ export default function InstitutionalProfile({
             alt={image.alt}
             width={420}
             height={520}
-            className="object-contain w-full hover:scale-125 scale-110"
+            className="object-contain w-full hover:scale-[130%] scale-[125%]"
           />
         </motion.div>
 
@@ -85,10 +85,10 @@ export default function InstitutionalProfile({
               variants={fadeUp}
               transition={{ duration: 0.5, ease: "easeOut" }}
             >
-              <h4 className="text-[16px] font-semibold text-[#0A2249] mb-2">
+              <h4 className="text-[18px] font-semibold text-[#1c387c] mb-2">
                 {item.title}
               </h4>
-              <p className="text-[14px] leading-6 text-gray-600">
+              <p className="text-[15px] leading-7 text-gray-700 font-normal">
                 {item.description}
               </p>
 

@@ -43,10 +43,9 @@ export default function MaldivesBorderMilesTile({
          TITLE (TOP CENTER)
          ===================== */}
       <div className="absolute top-8 left-1/2 z-10 -translate-x-1/2 text-center gap-4 grid">
-        <h3
-          className="text-black text-center text-[32px] leading-tight font-[400] uppercase tracking-wide"
-          dangerouslySetInnerHTML={{ __html: tile.title }}
-        />
+        <h3 className="text-black text-center text-[26px] leading-[24px] font-[400] uppercase tracking-wide">
+          Shaker International Scholarship Programs
+        </h3>
 
         <div className="flex justify-center">
           <button

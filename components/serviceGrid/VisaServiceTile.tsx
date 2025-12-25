@@ -3,6 +3,7 @@
 import { ServiceGridTile } from "@/types/content";
 import { motion } from "framer-motion";
 import SVGComponent from "@/public/svg/visa";
+import Image from "next/image";
 
 export default function VisaServiceTile({ tile }: { tile: ServiceGridTile }) {
   return (
@@ -18,7 +19,17 @@ export default function VisaServiceTile({ tile }: { tile: ServiceGridTile }) {
           ease: "easeOut",
         }}
       >
-        <SVGComponent />
+        <Image
+          src={tile.image}
+          alt={tile.title}
+          width={500}
+          height={500}
+          className="
+                    object-contain
+                    pointer-events-none
+                    scale-[100%]
+                  "
+        />
       </motion.div>
 
       {/* =====================

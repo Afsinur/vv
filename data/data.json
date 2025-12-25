@@ -114,7 +114,7 @@
           "id": "visa",
           "title": "Visa Service",
           "href": "/visa-service",
-          "image": "/svg/visa.svg",
+          "image": "/images/service-grid/flags.png",
           "background": {
             "gradient": "linear-gradient(125deg,#0d161f 0%,#0c3daf 99%)",
             "image": {
@@ -159,7 +159,7 @@
         },
         {
           "id": "passport",
-          "title": "Maldivian </br> Passport",
+          "title": "SGWRF",
           "href": "/passport",
           "image": "/images/service-grid/ordinary_passport.png",
           "decorImage": "/images/service-grid/p-h.png",
@@ -185,7 +185,8 @@
           "id": "bordermiles",
           "title": "SISP",
           "href": "/bordermiles",
-          "image": "/images/service-grid/mbm.png",
+          "image": "/images/service-grid/sisp-logo.png",
+          "decorImage": "/images/service-grid/live.gif",
           "background": {
             "gradient": "linear-gradient(40deg,#0d161f 0%,#0c3daf 99%)",
             "image": {
@@ -289,9 +290,9 @@
       "type": "leadershipProfile",
 
       "person": {
-        "name": "Ahmed Faseeh",
+        "name": "morad shaker",
         "designation": "Controller General of Immigration",
-        "image": "/images/leadership/person.png"
+        "image": "/images/leadership/morad-shaker.jpg"
       },
 
       "content": [

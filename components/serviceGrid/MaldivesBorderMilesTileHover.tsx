@@ -39,12 +39,37 @@ export default function MaldivesBorderMilesTile({
         />
       </motion.div>
 
+      {tile.decorImage && (
+        <motion.div
+          className="
+          absolute
+          right-[-5%]
+          bottom-[0%]
+          z-0
+          -translate-x-1/2
+        "
+        >
+          <Image
+            src={tile.decorImage}
+            alt={tile.title}
+            width={60}
+            height={60}
+            className="
+            object-contain
+            pointer-events-none
+            scale-[100%]
+          "
+          />
+        </motion.div>
+      )}
+
       {/* =====================
          TITLE (TOP CENTER)
          ===================== */}
       <div className="absolute top-8 left-1/2 z-10 -translate-x-1/2 text-center gap-4 grid">
-        <h3 className="text-black text-center text-[26px] leading-[24px] font-[400] uppercase tracking-wide">
-          Shaker International Scholarship Programs
+        <h3 className="text-black text-center text-[20px] leading-[24px] font-[400] tracking-wide">
+          <span className="whitespace-nowrap">Shaker International</span> <br />{" "}
+          <span className="whitespace-nowrap">Scholarship Programs</span>
         </h3>
 
         <div className="flex justify-center">

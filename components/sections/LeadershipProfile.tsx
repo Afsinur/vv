@@ -20,11 +20,11 @@ export default function LeadershipProfile({ section }: Props) {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5, ease: "easeOut" }}
-          className="flex items-center justify-center gap-20"
+          className="flex items-center justify-center gap-24"
         >
           {/* Name & Title */}
           <div className="pl-2">
-            <h2 className="text-[#1f3f7a] text-[38px] font-semibold leading-tight">
+            <h2 className="text-[#1f3f7a] text-[38px] font-semibold leading-tight capitalize">
               {person.name}
             </h2>
             <p className="text-gray-600 text-[17px] mt-3">

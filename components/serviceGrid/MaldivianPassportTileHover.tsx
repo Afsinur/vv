@@ -45,10 +45,10 @@ export default function MaldivianPassportTileHover({
          CONTENT LAYER (STABLE)
          ===================== */}
       <div className="absolute right-10 bottom-12 z-10 text-right grid gap-4">
-        <h3
-          className="text-white text-left text-[32px] leading-tight font-[400] uppercase tracking-wide"
-          dangerouslySetInnerHTML={{ __html: tile.title }}
-        />
+        <h3 className="text-black text-left text-[20px] leading-[24px] font-[400] tracking-wide">
+          <span className="whitespace-nowrap">Shaker Global Women’s</span>{" "}
+          <br /> <span className="whitespace-nowrap">Rights Foundation</span>
+        </h3>
 
         <div className="flex justify-start">
           <button

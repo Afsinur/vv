@@ -36,6 +36,30 @@ export default function MaldivesBorderMilesTile({
         />
       </motion.div>
 
+      {tile.decorImage && (
+        <motion.div
+          className="
+                absolute
+                right-[-5%]
+                bottom-[0%]
+                z-0
+                -translate-x-1/2
+              "
+        >
+          <Image
+            src={tile.decorImage}
+            alt={tile.title}
+            width={60}
+            height={60}
+            className="
+                  object-contain
+                  pointer-events-none
+                  scale-[100%]
+                "
+          />
+        </motion.div>
+      )}
+
       {/* =====================
          TITLE (TOP CENTER)
          ===================== */}

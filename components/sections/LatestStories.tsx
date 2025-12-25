@@ -44,7 +44,7 @@ export default function LatestStories({
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, ease: "easeOut" }}
           viewport={{ once: true }}
-          className="text-center text-[30px] font-semibold text-[#0A2249] mb-14 tracking-wide"
+          className="text-center text-[36px] font-extrabold text-[#0A2249] mb-14 tracking-wide"
         >
           {title}
         </motion.h2>

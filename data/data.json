@@ -87,7 +87,7 @@
         },
         {
           "id": "traveller",
-          "title": "Traveller </br> Declaration",
+          "title": "SILP",
           "href": "/traveller-declaration",
           "image": "/images/service-grid/airplane.png",
           "decorImage": "/images/service-grid/suitCase.png",
@@ -183,7 +183,7 @@
         },
         {
           "id": "bordermiles",
-          "title": "Maldives Bordermiles",
+          "title": "SISP",
           "href": "/bordermiles",
           "image": "/images/service-grid/mbm.png",
           "background": {

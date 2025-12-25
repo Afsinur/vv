@@ -9,6 +9,10 @@ import VisaServiceTile from "./VisaServiceTile";
 import VisaServiceTileHover from "./VisaServiceTileHover";
 import ImmigrationWatchTile from "./ImmigrationWatchTile";
 import ImmigrationWatchTileHover from "./ImmigrationWatchTileHover";
+import MaldivianPassportTile from "./MaldivianPassportTile";
+import MaldivianPassportTileHover from "./MaldivianPassportTileHover";
+import MaldivesBorderMilesTile from "./MaldivesBorderMilesTile";
+import MaldivesBorderMilesTileHover from "./MaldivesBorderMilesTileHover";
 
 export const TILE_COMPONENTS = {
   default: DefaultTile,
@@ -19,6 +23,10 @@ export const TILE_COMPONENTS = {
   thirdHover: VisaServiceTileHover,
   four: ImmigrationWatchTile,
   fourHover: ImmigrationWatchTileHover,
+  five: MaldivianPassportTile,
+  fiveHover: MaldivianPassportTileHover,
+  six: MaldivesBorderMilesTile,
+  sixHover: MaldivesBorderMilesTileHover,
   hover: HoverTile,
   stats: StatsTile,
   icon: IconTile,

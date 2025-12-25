@@ -159,9 +159,10 @@
         },
         {
           "id": "passport",
-          "title": "Maldivian Passport",
+          "title": "Maldivian </br> Passport",
           "href": "/passport",
-          "image": "/images/passport.png",
+          "image": "/images/service-grid/ordinary_passport.png",
+          "decorImage": "/images/service-grid/p-h.png",
           "background": {
             "gradient": "linear-gradient(40deg,#0d161f 0%,#0c3daf 99%)",
             "image": {
@@ -170,8 +171,8 @@
             }
           },
           "hoverSwap": {
-            "default": "icon",
-            "hover": "hover"
+            "default": "five",
+            "hover": "fiveHover"
           },
           "placement": {
             "colStart": { "desktop": 5 },
@@ -184,7 +185,7 @@
           "id": "bordermiles",
           "title": "Maldives Bordermiles",
           "href": "/bordermiles",
-          "image": "/images/bordermiles.png",
+          "image": "/images/service-grid/mbm.png",
           "background": {
             "gradient": "linear-gradient(40deg,#0d161f 0%,#0c3daf 99%)",
             "image": {
@@ -193,8 +194,8 @@
             }
           },
           "hoverSwap": {
-            "default": "default",
-            "hover": "icon"
+            "default": "six",
+            "hover": "sixHover"
           },
           "placement": {
             "colStart": { "desktop": 10 },

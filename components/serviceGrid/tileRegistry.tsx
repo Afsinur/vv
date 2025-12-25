@@ -6,6 +6,9 @@ import FirstTile from "./firstTile";
 import TravellerTile from "./TravellerTile";
 import TravellerApplyTile from "./TravellerApplyTile";
 import VisaServiceTile from "./VisaServiceTile";
+import VisaServiceTileHover from "./VisaServiceTileHover";
+import ImmigrationWatchTile from "./ImmigrationWatchTile";
+import ImmigrationWatchTileHover from "./ImmigrationWatchTileHover";
 
 export const TILE_COMPONENTS = {
   default: DefaultTile,
@@ -13,6 +16,9 @@ export const TILE_COMPONENTS = {
   second: TravellerTile,
   secondHover: TravellerApplyTile,
   third: VisaServiceTile,
+  thirdHover: VisaServiceTileHover,
+  four: ImmigrationWatchTile,
+  fourHover: ImmigrationWatchTileHover,
   hover: HoverTile,
   stats: StatsTile,
   icon: IconTile,

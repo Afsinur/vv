@@ -114,7 +114,7 @@
           "id": "visa",
           "title": "Visa Service",
           "href": "/visa-service",
-          "image": "/public/svg/visa.svg",
+          "image": "/svg/visa.svg",
           "background": {
             "gradient": "linear-gradient(125deg,#0d161f 0%,#0c3daf 99%)",
             "image": {
@@ -124,7 +124,7 @@
           },
           "hoverSwap": {
             "default": "third",
-            "hover": "icon"
+            "hover": "thirdHover"
           },
           "placement": {
             "colStart": { "desktop": 9 },
@@ -135,9 +135,9 @@
         },
         {
           "id": "immigration-watch",
-          "title": "Immigration Watch",
+          "title": "Immigration </br> Watch",
           "href": "/immigration-watch",
-          "image": "/images/watch.png",
+          "image": "/images/service-grid/watch-flag.png",
           "background": {
             "gradient": "linear-gradient(40deg,#0d161f 0%,#0c3daf 99%)",
             "image": {
@@ -147,8 +147,8 @@
             }
           },
           "hoverSwap": {
-            "default": "default",
-            "hover": "hover"
+            "default": "four",
+            "hover": "fourHover"
           },
           "placement": {
             "colStart": { "desktop": 1 },

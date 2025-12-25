@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { ServiceGridTile } from "@/types/content";
 
-export default function FirstTile({ tile }: { tile: ServiceGridTile }) {
+export default function FirstTileHover({ tile }: { tile: ServiceGridTile }) {
   return (
     <div className="relative w-full h-full flex flex-col items-center justify-center text-center">
       {/* ===== CENTER IMAGE ===== */}
@@ -21,10 +21,10 @@ export default function FirstTile({ tile }: { tile: ServiceGridTile }) {
       />
 
       {/* ===== TITLE TEXT ===== */}
-      <h3
-        className="font-[700] text-[24px] leading-snug uppercase tracking-wider"
-        dangerouslySetInnerHTML={{ __html: tile.title }}
-      />
+      <h3 className="text-white text-center text-[20px] leading-[24px] font-[400] tracking-wide">
+        <span className="whitespace-nowrap">Shaker International</span> <br />{" "}
+        <span className="whitespace-nowrap">Emergency Task Force</span>
+      </h3>
     </div>
   );
 }

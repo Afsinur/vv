@@ -21,7 +21,7 @@ export default function MaldivesBorderMilesTile({
         className="
           absolute
           left-1/2
-          bottom-[0%]
+          bottom-[5%]
           z-0
           -translate-x-1/2
         "

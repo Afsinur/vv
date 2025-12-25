@@ -13,10 +13,12 @@ import MaldivianPassportTile from "./MaldivianPassportTile";
 import MaldivianPassportTileHover from "./MaldivianPassportTileHover";
 import MaldivesBorderMilesTile from "./MaldivesBorderMilesTile";
 import MaldivesBorderMilesTileHover from "./MaldivesBorderMilesTileHover";
+import FirstTileHover from "./firstTileHover";
 
 export const TILE_COMPONENTS = {
   default: DefaultTile,
   first: FirstTile,
+  firstHover: FirstTileHover,
   second: TravellerTile,
   secondHover: TravellerApplyTile,
   third: VisaServiceTile,

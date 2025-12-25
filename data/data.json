@@ -76,7 +76,7 @@
           },
           "hoverSwap": {
             "default": "first",
-            "hover": "first"
+            "hover": "firstHover"
           },
           "placement": {
             "colStart": { "desktop": 1 },
@@ -112,7 +112,7 @@
         },
         {
           "id": "visa",
-          "title": "Visa Service",
+          "title": "OPERATION BANGLADESH",
           "href": "/visa-service",
           "image": "/images/service-grid/flags.png",
           "background": {
@@ -292,7 +292,7 @@
       "person": {
         "name": "morad shaker",
         "designation": "Controller General of Immigration",
-        "image": "/images/leadership/morad-shaker.jpg"
+        "image": "/images/leadership/morad-shaker.png"
       },
 
       "content": [

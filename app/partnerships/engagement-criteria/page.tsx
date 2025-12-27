@@ -13,7 +13,7 @@ export default function Page() {
       <main
         style={{ background: "#fff", padding: "120px 0", minHeight: "90vh" }}
       >
-        <div className="container mx-auto prose">
+        <div className="container mx-auto prose lg:px-[220px]">
           <h1>Engagement Criteria</h1>
 
           <p>Shaker IMF considers engagement when national leadership:</p>

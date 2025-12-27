@@ -397,17 +397,29 @@
         {
           "title": "Primary Links",
           "links": [
-            { "label": "About Shaker IMF", "href": "/about" },
+            {
+              "label": "About Shaker IMF",
+              "href": "/about"
+            },
             {
               "label": "Mission, Vision & Values",
               "href": "/about/mission-vision-values"
             },
-            { "label": "What We Do", "href": "/what-we-do" },
-            { "label": "Partnerships", "href": "/partnerships" },
-            { "label": "Transparency", "href": "/transparency" },
+            {
+              "label": "What We Do",
+              "href": "/what-we-do/financial-stabilization-support"
+            },
+            {
+              "label": "Partnerships",
+              "href": "/partnerships/countries-we-serve"
+            },
+            {
+              "label": "Transparency",
+              "href": "/transparency/legal-structure-compliance"
+            },
             {
               "label": "Official Statements",
-              "href": "/media/official-statements"
+              "href": "/media-contact/official-statements"
             }
           ]
         },
@@ -416,32 +428,40 @@
           "links": [
             {
               "label": "Legal Structure & Compliance",
-              "href": "/transparency/legal-compliance"
+              "href": "/transparency/legal-structure-compliance"
             },
             {
               "label": "Transparency & Ethics",
-              "href": "/transparency/ethics"
+              "href": "/transparency/transparency-ethics"
             },
             {
               "label": "No Fees / No Interest / No Donations Policy",
-              "href": "/transparency/no-fees-policy"
+              "href": "/transparency/no-fees-interest-donations"
             },
-            { "label": "Privacy Policy", "href": "/privacy-policy" },
-            { "label": "Terms of Use", "href": "/terms-of-use" }
+            {
+              "label": "Privacy Policy",
+              "href": "/transparency/privacy-policy"
+            },
+            {
+              "label": "Terms of Use",
+              "href": "/transparency/terms-of-use"
+            }
           ]
         },
         {
           "title": "Communication",
           "links": [
-            { "label": "Press & Media", "href": "/media/press" },
+            {
+              "label": "Press & Media",
+              "href": "/media-contact/press-media"
+            },
             {
               "label": "Contact (Institutional Inquiries Only)",
-              "href": "/contact"
+              "href": "/media-contact/contact"
             }
           ]
         }
       ],
-
       "contact": {
         "phone": "+960 1434",
         "email": "info@immigration.gov.mv"

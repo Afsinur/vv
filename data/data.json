@@ -395,79 +395,49 @@
 
       "columns": [
         {
-          "title": "Maldivian Passport",
+          "title": "Primary Links",
           "links": [
-            { "label": "The Revolution", "href": "/passport/revolution" },
-            { "label": "Passports", "href": "/passport" },
-            { "label": "How to Apply", "href": "/passport/apply" },
-            { "label": "Photo Standard", "href": "/passport/photo-standard" },
-            { "label": "FAQ", "href": "/passport/faq" }
-          ]
-        },
-        {
-          "title": "Traveller Declaration",
-          "links": [
-            { "label": "New Declaration", "href": "/traveller-declaration" },
-            { "label": "Edit", "href": "/traveller-declaration/edit" },
+            { "label": "About Shaker IMF", "href": "/about" },
             {
-              "label": "Verify QR Code",
-              "href": "/traveller-declaration/verify"
+              "label": "Mission, Vision & Values",
+              "href": "/about/mission-vision-values"
             },
-            { "label": "Read More", "href": "/traveller-declaration/info" }
-          ]
-        },
-        {
-          "title": "Visa",
-          "links": [
-            { "label": "Tourist Visa", "href": "/visa/tourist" },
-            { "label": "Sponsorship", "href": "/visa/sponsorship" },
-            { "label": "Work Visa", "href": "/visa/work" },
-            { "label": "Marriage Visa", "href": "/visa/marriage" },
-            { "label": "Dependent Visa", "href": "/visa/dependent" },
-            { "label": "Business Visa", "href": "/visa/business" },
-            { "label": "Resident Visa", "href": "/visa/resident" },
-            { "label": "Meeting Visa", "href": "/visa/meeting" }
-          ]
-        },
-        {
-          "title": "Resources",
-          "links": [
-            { "label": "News Room", "href": "/news" },
-            { "label": "Publications", "href": "/publications" },
-            { "label": "Procurement", "href": "/procurement" },
-            { "label": "Photos", "href": "/photos" },
-            { "label": "Right to Information", "href": "/rti" }
-          ]
-        },
-        {
-          "title": "Downloads",
-          "links": [
-            { "label": "Recruitment", "href": "/downloads/recruitment" },
-            { "label": "Permits", "href": "/downloads/permits" },
-            { "label": "Passports", "href": "/downloads/passports" },
+            { "label": "What We Do", "href": "/what-we-do" },
+            { "label": "Partnerships", "href": "/partnerships" },
+            { "label": "Transparency", "href": "/transparency" },
             {
-              "label": "Professional Category",
-              "href": "/downloads/professional-category"
+              "label": "Official Statements",
+              "href": "/media/official-statements"
+            }
+          ]
+        },
+        {
+          "title": "Legal & Compliance",
+          "links": [
+            {
+              "label": "Legal Structure & Compliance",
+              "href": "/transparency/legal-compliance"
             },
             {
-              "label": "Seaport Control",
-              "href": "/downloads/seaport-control"
+              "label": "Transparency & Ethics",
+              "href": "/transparency/ethics"
             },
-            { "label": "Work Visa", "href": "/downloads/work-visa" },
-            { "label": "Right to Information", "href": "/downloads/rti" },
-            { "label": "ECD", "href": "/downloads/ecd" },
-            { "label": "Legal", "href": "/downloads/legal" },
-            { "label": "Other", "href": "/downloads/other" }
-          ]
-        },
-        {
-          "title": "Other",
-          "links": [
-            { "label": "Contact", "href": "/contact" },
-            { "label": "Watch", "href": "/watch" },
-            { "label": "Queue Token", "href": "/queue" },
+            {
+              "label": "No Fees / No Interest / No Donations Policy",
+              "href": "/transparency/no-fees-policy"
+            },
             { "label": "Privacy Policy", "href": "/privacy-policy" },
-            { "label": "Terms and Conditions", "href": "/terms" }
+            { "label": "Terms of Use", "href": "/terms-of-use" }
+          ]
+        },
+        {
+          "title": "Communication",
+          "links": [
+            { "label": "Press & Media", "href": "/media/press" },
+            {
+              "label": "Contact (Institutional Inquiries Only)",
+              "href": "/contact"
+            }
           ]
         }
       ],

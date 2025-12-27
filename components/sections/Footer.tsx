@@ -140,9 +140,6 @@ export default function Footer({ section }: Props) {
             width={42}
             height={42}
           />
-          <span className="text-[13px] text-white/80 leading-tight">
-            REPUBLIC OF MALDIVES
-          </span>
         </motion.div>
 
         <div className="gap-2 flex flex-col items-end">

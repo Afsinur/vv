@@ -28,8 +28,6 @@ export default function Page() {
         <div className="mb-20"></div>
 
         <div className="container mx-auto prose lg:px-[220px]">
-          <h1>About Shaker IMF</h1>
-
           <p>
             Shaker International Monetary Fund (Shaker IMF) is a private
             international humanitarian initiative founded by M. Shaker as the

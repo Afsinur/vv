@@ -93,7 +93,7 @@ export default function Navbar({
               )}
 
               <span className="hidden md:block text-[36px] font-semibold tracking-wide">
-                Shaker IMP
+                Shaker IMF
               </span>
             </Link>
 

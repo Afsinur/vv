@@ -6,7 +6,7 @@
       "linkHref": "/about-official-website"
     },
     "logo": {
-      "src": "/images/logo.png",
+      "src": "/images/navbar/logo.png",
       "alt": "Shaker IMP"
     },
     "items": [
@@ -153,7 +153,7 @@
           "id": "75-years",
           "title": "SIETF",
           "href": "/75-years",
-          "image": "/images/service-grid/75_logo.png",
+          "image": "/images/navbar/logo.png",
           "background": {
             "gradient": "linear-gradient(40deg,#0d161f 0%,#0c3daf 99%)"
           },

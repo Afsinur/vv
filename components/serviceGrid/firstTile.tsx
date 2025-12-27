@@ -9,12 +9,12 @@ export default function FirstTile({ tile }: { tile: ServiceGridTile }) {
       <Image
         src={tile.image}
         alt={tile.title}
-        width={260}
-        height={260}
+        width={300}
+        height={300}
         priority
         className="s
-          w-[30%]
-          max-w-[240px]
+          w-[50%]
+          max-w-[300px]
           h-auto
           mb-6
           drop-shadow-[0_10px_28px_rgba(0,0,0,0.35)]

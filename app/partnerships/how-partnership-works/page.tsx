@@ -12,21 +12,26 @@ export default function Page() {
 
       <main style={{ background: "#fff", padding: "80px 0" }}>
         <div className="container mx-auto prose">
-          <h1>Engagement Criteria</h1>
+          <h1>How Partnership Works</h1>
 
-          <p>Shaker IMF considers engagement when national leadership:</p>
+          <ol>
+            <li>Confidential Authorized Inquiry</li>
+            <li>Initial Assessment</li>
+            <li>Strategic Proposal</li>
+            <li>Leader-to-Leader Alignment</li>
+            <li>Implementation Support</li>
+            <li>Exit Strategy to Self-Reliance</li>
+          </ol>
 
-          <ul>
-            <li>Makes an authorized, confidential request</li>
-            <li>Is committed to public welfare and integrity</li>
-            <li>Seeks stable pathways, not political gain</li>
-            <li>Respects sovereign authority and confidentiality</li>
-          </ul>
+          <p>
+            Every engagement is confidential and honors sovereignty and
+            leadership priority.
+          </p>
 
           {/*
             Photo suggestion (optional – future use):
-            A simple symbolic graphic combining a shield and a globe,
-            representing integrity, protection, and sovereignty.
+            A clean infographic illustrating a six-step partnership
+            pathway using simple icons and an elegant, minimal design.
           */}
         </div>
       </main>

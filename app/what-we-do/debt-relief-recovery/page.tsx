@@ -1,27 +1,42 @@
-import dataJson from "@/data/data.json";
-import { NewsItem, PageData } from "@/types/content";
+"use client";
 import Navbar from "@/components/navbar/Navbar";
 import Footer from "@/components/sections/Footer";
+import dataJson from "@/data/data.json";
 
-const data = dataJson as PageData;
+const data = dataJson;
 
 export default function Page() {
-  const homeStories: NewsItem[] = data.news.slice(0, 6);
-
   return (
     <>
       <Navbar {...data.navbar} />
-      <main
-        style={{ background: "#fff", padding: "80px", textAlign: "center" }}
-      >
-        <h1>Content Coming Soon</h1>
+
+      <main style={{ background: "#fff", padding: "80px 0" }}>
+        <div className="container mx-auto prose">
+          <h1>Debt Relief & Recovery Partnerships</h1>
+
+          <p>
+            Debt burdens can trap nations in cycles of hardship. Shaker IMF
+            partners with leadership to explore pathways out of debt stress that
+            preserve sovereignty and protect citizens.
+          </p>
+
+          <p>
+            These partnerships focus on long-term resilience, not dependency.
+          </p>
+
+          {/*
+            Photo suggestion (optional – future use):
+            A soft, symbolic graphic showing chains breaking gently
+            over a globe, representing recovery and renewed stability.
+          */}
+        </div>
       </main>
-      {data.sections.map((section) => {
-        if (section.type === "footer") {
-          return <Footer key={section.id} section={section} />;
-        }
-        return null;
-      })}
+
+      {data.sections.map((section: any) =>
+        section.type === "footer" ? (
+          <Footer key={section.id} section={section} />
+        ) : null
+      )}
     </>
   );
 }

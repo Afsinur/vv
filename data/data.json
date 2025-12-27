@@ -40,7 +40,7 @@
         "children": [
           {
             "label": "Financial Stabilization Support",
-            "href": "/what-we-do/financial-stabilization"
+            "href": "/what-we-do/financial-stabilization-support"
           },
           {
             "label": "Debt Relief & Recovery Partnerships",
@@ -48,11 +48,11 @@
           },
           {
             "label": "Emergency Economic Assistance",
-            "href": "/what-we-do/emergency-assistance"
+            "href": "/what-we-do/emergency-economic-assistance"
           },
           {
             "label": "Development Acceleration Programs",
-            "href": "/what-we-do/development-acceleration"
+            "href": "/what-we-do/development-acceleration-programs"
           }
         ]
       },
@@ -61,11 +61,11 @@
         "children": [
           {
             "label": "Countries We Serve",
-            "href": "/partnerships/countries"
+            "href": "/partnerships/countries-we-serve"
           },
           {
             "label": "How Partnership Works",
-            "href": "/partnerships/how-it-works"
+            "href": "/partnerships/how-partnership-works"
           },
           {
             "label": "Engagement Criteria",
@@ -73,7 +73,7 @@
           },
           {
             "label": "Confidentiality Policy",
-            "href": "/partnerships/confidentiality"
+            "href": "/partnerships/confidentiality-policy"
           }
         ]
       },
@@ -82,23 +82,23 @@
         "children": [
           {
             "label": "Legal Structure & Compliance",
-            "href": "/transparency/legal-compliance"
+            "href": "/transparency/legal-structure-compliance"
           },
           {
             "label": "Transparency & Ethics",
-            "href": "/transparency/ethics"
+            "href": "/transparency/transparency-ethics"
           },
           {
             "label": "No Fees / No Interest / No Donations Policy",
-            "href": "/transparency/no-fees-policy"
+            "href": "/transparency/no-fees-interest-donations"
           },
           {
             "label": "Privacy Policy",
-            "href": "/privacy-policy"
+            "href": "/transparency/privacy-policy"
           },
           {
             "label": "Terms of Use",
-            "href": "/terms-of-use"
+            "href": "/transparency/terms-of-use"
           }
         ]
       },
@@ -107,15 +107,15 @@
         "children": [
           {
             "label": "Official Statements",
-            "href": "/media/official-statements"
+            "href": "/media-contact/official-statements"
           },
           {
             "label": "Press & Media",
-            "href": "/media/press"
+            "href": "/media-contact/press-media"
           },
           {
             "label": "Contact (Institutional Inquiries Only)",
-            "href": "/contact"
+            "href": "/media-contact/contact"
           }
         ]
       }

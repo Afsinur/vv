@@ -86,9 +86,9 @@ export default function Navbar({
                 <Image
                   src={logo.src}
                   alt={logo.alt}
-                  width={42}
-                  height={42}
-                  className="object-contain"
+                  width={120}
+                  height={120}
+                  className="object-contain translate-y-1/3"
                 />
               )}
 

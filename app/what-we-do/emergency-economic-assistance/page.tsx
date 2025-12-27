@@ -12,21 +12,20 @@ export default function Page() {
 
       <main style={{ background: "#fff", padding: "80px 0" }}>
         <div className="container mx-auto prose">
-          <h1>Engagement Criteria</h1>
+          <h1>Emergency Economic Assistance</h1>
 
-          <p>Shaker IMF considers engagement when national leadership:</p>
-
-          <ul>
-            <li>Makes an authorized, confidential request</li>
-            <li>Is committed to public welfare and integrity</li>
-            <li>Seeks stable pathways, not political gain</li>
-            <li>Respects sovereign authority and confidentiality</li>
-          </ul>
+          <p>
+            During acute crises — such as natural disasters, conflict shocks, or
+            sudden fiscal collapse — Shaker IMF engages with leaders to
+            coordinate swift economic support designed to protect people and
+            preserve essential services until longer-term stabilization can be
+            achieved.
+          </p>
 
           {/*
             Photo suggestion (optional – future use):
-            A simple symbolic graphic combining a shield and a globe,
-            representing integrity, protection, and sovereignty.
+            A subtle, symbolic image of sunlight breaking through
+            clouds, representing hope and stability during crisis.
           */}
         </div>
       </main>

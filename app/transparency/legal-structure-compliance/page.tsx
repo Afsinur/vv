@@ -12,21 +12,23 @@ export default function Page() {
 
       <main style={{ background: "#fff", padding: "80px 0" }}>
         <div className="container mx-auto prose">
-          <h1>Engagement Criteria</h1>
+          <h1>Official Statements</h1>
 
-          <p>Shaker IMF considers engagement when national leadership:</p>
+          <p>
+            This page holds verified public statements and announcements issued
+            by Shaker IMF.
+          </p>
 
-          <ul>
-            <li>Makes an authorized, confidential request</li>
-            <li>Is committed to public welfare and integrity</li>
-            <li>Seeks stable pathways, not political gain</li>
-            <li>Respects sovereign authority and confidentiality</li>
-          </ul>
+          <p>
+            Statements are listed by date, headline, and brief summary, with an
+            option to expand and view the full text of each announcement.
+          </p>
 
           {/*
-            Photo suggestion (optional – future use):
-            A simple symbolic graphic combining a shield and a globe,
-            representing integrity, protection, and sovereignty.
+            Design note (intentional):
+            No hero image is used on this page.
+            Headlines and text-only presentation maintain a
+            dignified, institutional, and authoritative tone.
           */}
         </div>
       </main>

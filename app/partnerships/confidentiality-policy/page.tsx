@@ -12,21 +12,22 @@ export default function Page() {
 
       <main style={{ background: "#fff", padding: "80px 0" }}>
         <div className="container mx-auto prose">
-          <h1>Engagement Criteria</h1>
+          <h1>Confidentiality Policy</h1>
 
-          <p>Shaker IMF considers engagement when national leadership:</p>
+          <p>
+            All communications with Shaker IMF are treated as confidential
+            unless explicitly authorized for public release.
+          </p>
 
-          <ul>
-            <li>Makes an authorized, confidential request</li>
-            <li>Is committed to public welfare and integrity</li>
-            <li>Seeks stable pathways, not political gain</li>
-            <li>Respects sovereign authority and confidentiality</li>
-          </ul>
+          <p>
+            This protects national interest, prevents misrepresentation, and
+            preserves trust.
+          </p>
 
           {/*
             Photo suggestion (optional – future use):
-            A simple symbolic graphic combining a shield and a globe,
-            representing integrity, protection, and sovereignty.
+            A minimal, clean icon of a locked document,
+            symbolizing confidentiality and trust.
           */}
         </div>
       </main>

@@ -10,7 +10,9 @@ export default function Page() {
     <>
       <Navbar {...data.navbar} />
 
-      <main style={{ background: "#fff", padding: "80px 0" }}>
+      <main
+        style={{ background: "#fff", padding: "120px 0", minHeight: "90vh" }}
+      >
         <div className="container mx-auto prose">
           <h1>How Partnership Works</h1>
 

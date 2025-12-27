@@ -92,9 +92,9 @@ export default function Navbar({
                 />
               )}
 
-              <span className="hidden md:block text-[36px] font-semibold tracking-wide">
+              {/* <span className="hidden md:block text-[36px] font-semibold tracking-wide">
                 Shaker IMF
-              </span>
+              </span> */}
             </Link>
 
             <div className="flex gap-8">

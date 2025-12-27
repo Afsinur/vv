@@ -1,4 +1,3 @@
-
 "use client";
 import Navbar from "@/components/navbar/Navbar";
 import Footer from "@/components/sections/Footer";
@@ -9,14 +8,18 @@ export default function Page() {
   return (
     <>
       <Navbar {...data.navbar} />
-      <main style={{ background: "#fff", padding: "80px 0" }}>
+      <main
+        style={{ background: "#fff", padding: "120px 0", minHeight: "90vh" }}
+      >
         <div className="container mx-auto prose">
           <h1>Transparency & Ethics</h1>
           <p></p>
         </div>
       </main>
-      {data.sections.map((section:any) =>
-        section.type === "footer" ? <Footer key={section.id} section={section} /> : null
+      {data.sections.map((section: any) =>
+        section.type === "footer" ? (
+          <Footer key={section.id} section={section} />
+        ) : null
       )}
     </>
   );

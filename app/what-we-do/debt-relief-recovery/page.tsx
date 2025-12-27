@@ -1,4 +1,5 @@
 "use client";
+import HeroIntro from "@/components/common/HeroIntro";
 import Navbar from "@/components/navbar/Navbar";
 import Footer from "@/components/sections/Footer";
 import dataJson from "@/data/data.json";
@@ -11,11 +12,21 @@ export default function Page() {
       <Navbar {...data.navbar} />
 
       <main
-        style={{ background: "#fff", padding: "120px 0", minHeight: "90vh" }}
+        style={{
+          background: "#fff",
+          padding: "0 0 120px 0",
+          minHeight: "90vh",
+        }}
       >
-        <div className="container mx-auto prose lg:px-[220px]">
-          <h1>Debt Relief & Recovery Partnerships</h1>
+        <HeroIntro
+          imageSrc="/images/what-we-do/debt.png"
+          imageAlt="debt"
+          title="Debt Relief & Recovery Partnerships"
+          subtitle="A path leading into the light."
+        />
 
+        <div className="mb-20"></div>
+        <div className="container mx-auto prose lg:px-[220px]">
           <p>
             Debt burdens can trap nations in cycles of hardship. Shaker IMF
             partners with leadership to explore pathways out of debt stress that
@@ -32,6 +43,7 @@ export default function Page() {
             over a globe, representing recovery and renewed stability.
           */}
         </div>
+        <div className="pb-40"></div>
       </main>
 
       {data.sections.map((section: any) =>

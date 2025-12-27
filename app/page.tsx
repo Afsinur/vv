@@ -7,6 +7,7 @@ import LatestStories from "@/components/sections/LatestStories";
 import ImmigrationStatistics from "@/components/sections/ImmigrationStatistics";
 import LeadershipProfile from "@/components/sections/LeadershipProfile";
 import Footer from "@/components/sections/Footer";
+import HeroIntro from "@/components/common/HeroIntro";
 
 const data = dataJson as PageData;
 
@@ -16,10 +17,25 @@ export default function Page() {
   return (
     <>
       <Navbar {...data.navbar} />
+
       {data.sections.map((section) => {
         if (section.type === "serviceGrid") {
           return <ServiceGrid key={section.id} {...section} />;
         }
+
+        return null;
+      })}
+
+      <div className="py-40 bg-white">
+        <HeroIntro
+          imageSrc="/images/home-page/home-page.png"
+          imageAlt="home-page"
+          title="Home Page"
+          subtitle="A path leading into the light."
+        />
+      </div>
+
+      {data.sections.map((section) => {
         if (section.type === "institutionalProfile") {
           return (
             <InstitutionalProfile

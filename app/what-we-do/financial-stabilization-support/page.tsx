@@ -1,4 +1,5 @@
 "use client";
+import HeroIntro from "@/components/common/HeroIntro";
 import Navbar from "@/components/navbar/Navbar";
 import Footer from "@/components/sections/Footer";
 import dataJson from "@/data/data.json";
@@ -11,11 +12,21 @@ export default function Page() {
       <Navbar {...data.navbar} />
 
       <main
-        style={{ background: "#fff", padding: "120px 0", minHeight: "90vh" }}
+        style={{
+          background: "#fff",
+          padding: "0 0 120px 0",
+          minHeight: "90vh",
+        }}
       >
-        <div className="container mx-auto prose lg:px-[220px]">
-          <h1>Financial Stabilization Support</h1>
+        <HeroIntro
+          imageSrc="/images/what-we-do/financial.png"
+          imageAlt="financial"
+          title="Financial Stabilization Support"
+          subtitle="A path leading into the light."
+        />
 
+        <div className="mb-20"></div>
+        <div className="container mx-auto prose lg:px-[220px]">
           <p>
             Shaker IMF works with national leadership during times of fiscal and
             economic stress to help stabilize essential services, restore
@@ -34,6 +45,7 @@ export default function Page() {
             subdued world map.
           */}
         </div>
+        <div className="pb-40"></div>
       </main>
 
       {data.sections.map((section: any) =>

@@ -82,7 +82,7 @@ export default function Navbar({
           <div className="container mx-auto px-6 h-[112px] flex items-center justify-between">
             {/* LOGO */}
             <Link href="/" className="flex items-center gap-3">
-              {logo.src && (
+              {logo?.src && (
                 <Image
                   src={logo.src}
                   alt={logo.alt}
@@ -92,7 +92,7 @@ export default function Navbar({
                 />
               )}
 
-              <span className="hidden md:block text-[13px] font-semibold tracking-wide">
+              <span className="hidden md:block text-[36px] font-semibold tracking-wide">
                 Shaker IMP
               </span>
             </Link>

@@ -10,46 +10,115 @@
       "alt": "Shaker IMP"
     },
     "items": [
-      { "label": "Home", "href": "/" },
       {
-        "label": "Mission",
-        "href": "/traveller-declaration",
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "About",
         "children": [
-          { "label": "Our Mission", "href": "/our-mission" },
-          { "label": "Our Vision", "href": "/our-vision" }
+          {
+            "label": "About Shaker IMF",
+            "href": "/about"
+          },
+          {
+            "label": "Mission, Vision & Values",
+            "href": "/about/mission-vision-values"
+          },
+          {
+            "label": "Founder & Leadership",
+            "href": "/about/founder-leadership"
+          },
+          {
+            "label": "Governance & Ethics",
+            "href": "/about/governance-ethics"
+          }
         ]
       },
       {
-        "label": "Passport",
+        "label": "What We Do",
         "children": [
-          { "label": "Forms", "href": "/passport/forms" },
-          { "label": "Status", "href": "/passport/status" }
+          {
+            "label": "Financial Stabilization Support",
+            "href": "/what-we-do/financial-stabilization"
+          },
+          {
+            "label": "Debt Relief & Recovery Partnerships",
+            "href": "/what-we-do/debt-relief-recovery"
+          },
+          {
+            "label": "Emergency Economic Assistance",
+            "href": "/what-we-do/emergency-assistance"
+          },
+          {
+            "label": "Development Acceleration Programs",
+            "href": "/what-we-do/development-acceleration"
+          }
         ]
       },
       {
-        "label": "Visa",
+        "label": "Partnerships",
         "children": [
-          { "label": "Visa Service", "href": "/visa" },
-          { "label": "Visa Status", "href": "/visa/status" }
+          {
+            "label": "Countries We Serve",
+            "href": "/partnerships/countries"
+          },
+          {
+            "label": "How Partnership Works",
+            "href": "/partnerships/how-it-works"
+          },
+          {
+            "label": "Engagement Criteria",
+            "href": "/partnerships/engagement-criteria"
+          },
+          {
+            "label": "Confidentiality Policy",
+            "href": "/partnerships/confidentiality"
+          }
         ]
       },
-      { "label": "Watch", "href": "/watch" },
       {
-        "label": "Resources",
+        "label": "Transparency",
         "children": [
-          { "label": "Forms", "href": "/resources/forms" },
-          { "label": "Downloads", "href": "/resources/downloads" }
+          {
+            "label": "Legal Structure & Compliance",
+            "href": "/transparency/legal-compliance"
+          },
+          {
+            "label": "Transparency & Ethics",
+            "href": "/transparency/ethics"
+          },
+          {
+            "label": "No Fees / No Interest / No Donations Policy",
+            "href": "/transparency/no-fees-policy"
+          },
+          {
+            "label": "Privacy Policy",
+            "href": "/privacy-policy"
+          },
+          {
+            "label": "Terms of Use",
+            "href": "/terms-of-use"
+          }
         ]
       },
       {
-        "label": "Contact",
-        "href": "/contact",
+        "label": "Media & Contact",
         "children": [
-          { "label": "NGOs", "href": "/ngos" },
-          { "label": "Country Leadership", "href": "/country-leadership" }
+          {
+            "label": "Official Statements",
+            "href": "/media/official-statements"
+          },
+          {
+            "label": "Press & Media",
+            "href": "/media/press"
+          },
+          {
+            "label": "Contact (Institutional Inquiries Only)",
+            "href": "/contact"
+          }
         ]
-      },
-      { "label": "Queue", "href": "/queue" }
+      }
     ],
     "actions": {
       "search": true,

@@ -1,7 +1,7 @@
 {
   "navbar": {
     "topBar": {
-      "text": "An official website of the Maldives government.",
+      "text": "An official website of the M. Shaker",
       "linkText": "How do you know?",
       "linkHref": "/about-official-website"
     },
@@ -296,11 +296,11 @@
 
       "title": "INSTITUTIONAL PROFILE",
 
-      "description": "At Maldives Immigration, our mission is clear: to safeguard national security while providing quality, convenient, and professional immigration services. We are committed to facilitating legitimate travel, proactively detecting immigration-related crimes, and ensuring Maldivian citizens have a trustworthy international travel identity.",
+      "description": "At M. Shaker, our mission is clear: to safeguard national security while providing quality, convenient, and professional immigration services. We are committed to facilitating legitimate travel, proactively detecting immigration-related crimes, and ensuring Maldivian citizens have a trustworthy international travel identity.",
 
       "image": {
         "src": "/images/institutional/staff.png",
-        "alt": "Maldives Immigration Officers"
+        "alt": "M. Shaker Officers"
       },
 
       "values": [
@@ -359,7 +359,7 @@
         {
           "value": "1.7M+",
           "title": "Tourist Arrivals",
-          "description": "Over 1.7 million tourists entered the Maldives with smoother, faster entry processes, ensuring a safe and welcoming start to their journey."
+          "description": "Over 1.7 million tourists entered the M. Shaker with smoother, faster entry processes, ensuring a safe and welcoming start to their journey."
         },
         {
           "value": "3256",
@@ -468,10 +468,10 @@
       },
 
       "bottom": {
-        "copyright": "Copyright © Maldives Immigration 2025",
+        "copyright": "Copyright © M. Shaker 2025",
         "logo": {
-          "src": "/images/republic-of-maldives.png",
-          "alt": "Republic of Maldives"
+          "src": "/images/navbar/logo.png",
+          "alt": "logo"
         },
         "social": [
           { "type": "instagram", "href": "#" },
@@ -491,7 +491,7 @@
       "image": "/images/stories/card-1.jpg",
       "excerpt": "New system introduced to strengthen identity verification.",
       "content": [
-        "Maldives Immigration has introduced a new facial recognition system.",
+        "M. Shaker has introduced a new facial recognition system.",
         "The system enhances operational efficiency and national security."
       ]
     },
@@ -579,7 +579,7 @@
     },
     {
       "id": "customer-service-award",
-      "title": "Maldives Immigration Receives Customer Service Award",
+      "title": "M. Shaker Receives Customer Service Award",
       "date": "5 December 2024",
       "image": "/images/news-12.png",
       "excerpt": "Award received.",
@@ -592,7 +592,7 @@
       "image": "/images/news-13.png",
       "excerpt": "Border control infrastructure upgraded.",
       "content": [
-        "Maldives Immigration has upgraded border control systems.",
+        "M. Shaker has upgraded border control systems.",
         "The upgrade improves passenger processing and security."
       ]
     },
